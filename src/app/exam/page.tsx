@@ -229,7 +229,7 @@ const timeSpentFormatted = `${timeSpentMinutes} minutes`;
             <h2 className="text-xl font-semibold text-yellow-800 mb-4">Exam Structure</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <h3 className="font-semibold text-gray-800 mb-3">Section A: Multiple Choice (60 Questions)</h3>
+                <h3 className="font-semibold text-gray-800 mb-3">Section A: Multiple Choice (25 Questions)</h3>
                 <ul className="text-sm text-gray-700 space-y-2">
                   <li>• Various topics covering the subject</li>
                   <li>• Choose from options A, B, C, or D</li>

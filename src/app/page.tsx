@@ -77,7 +77,7 @@ export default function HomePage() {
               <div className="text-white/80">Total Questions</div>
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center border border-white/20">
-              <div className="text-3xl font-bold text-white mb-2">60</div>
+              <div className="text-3xl font-bold text-white mb-2">25</div>
               <div className="text-white/80">Minutes Duration</div>
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center border border-white/20">
@@ -145,7 +145,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Multiple Question Types</h3>
               <p className="text-gray-600">
-                60 multiple-choice questions.
+                25 multiple-choice questions.
               </p>
             </div>
 
@@ -229,7 +229,7 @@ export default function HomePage() {
                     <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <span className="text-green-600 text-sm font-bold">1</span>
                     </div>
-                    <p className="text-gray-700">Total duration: <strong>1 hour (60 minutes)</strong></p>
+                    <p className="text-gray-700">Total duration: <strong>25 minutes</strong></p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
