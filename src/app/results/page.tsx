@@ -141,7 +141,7 @@ export default function ResultsPage() {
             <h2 className="text-xl font-semibold text-gray-800 mb-4">Multiple Choice Results</h2>
             <div className="text-center">
               <div className="text-4xl font-bold text-blue-600 mb-2">
-                {result.multipleChoiceScore}/60
+                {result.multipleChoiceScore}/25
               </div>
               <div className="w-full bg-blue-200 rounded-full h-3">
                 <div 
@@ -159,7 +159,7 @@ export default function ResultsPage() {
             <h2 className="text-xl font-semibold text-gray-800 mb-4">Overall Performance</h2>
             <div className="text-center">
               <div className="text-4xl font-bold text-green-600 mb-2">
-                {result.totalScore}/60
+                {result.totalScore}/25
               </div>
               <div className="w-full bg-green-200 rounded-full h-3">
                 <div 
