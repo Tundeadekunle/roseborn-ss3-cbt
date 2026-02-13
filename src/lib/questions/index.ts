@@ -1,12 +1,6 @@
 import { Question, Subject } from '@/types';
-import { historyQuestions } from './history';
-import { ccaQuestions } from './cca';
-import { scienceQuestions } from './science';
-import { scsQuestions } from './scs';
-import { businessQuestions } from './business';
 import { dataProcessingQuestions } from './computer';
-import { pheQuestions } from './phe';
-import { crsQuestions } from './crs';
+
 
 export const getQuestionsBySubject = (subject: Subject): Question[] => {
   switch (subject) {
