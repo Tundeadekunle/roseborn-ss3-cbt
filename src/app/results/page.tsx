@@ -141,16 +141,16 @@ export default function ResultsPage() {
             <h2 className="text-xl font-semibold text-gray-800 mb-4">Multiple Choice Results</h2>
             <div className="text-center">
               <div className="text-4xl font-bold text-blue-600 mb-2">
-                {result.multipleChoiceScore}/25
+                {result.multipleChoiceScore}/30
               </div>
               <div className="w-full bg-blue-200 rounded-full h-3">
                 <div 
                   className="bg-blue-600 h-3 rounded-full transition-all duration-1000"
-                  style={{ width: `${(result.multipleChoiceScore / 60) * 100}%` }}
+                  style={{ width: `${(result.multipleChoiceScore / 30) * 100}%` }}
                 ></div>
               </div>
               <p className="text-gray-600 mt-2">
-                {((result.multipleChoiceScore / 60) * 100).toFixed(1)}% Correct
+                {((result.multipleChoiceScore / 30) * 100).toFixed(1)}% Correct
               </p>
             </div>
           </div>
@@ -159,16 +159,16 @@ export default function ResultsPage() {
             <h2 className="text-xl font-semibold text-gray-800 mb-4">Overall Performance</h2>
             <div className="text-center">
               <div className="text-4xl font-bold text-green-600 mb-2">
-                {result.totalScore}/25
+                {result.totalScore}/30
               </div>
               <div className="w-full bg-green-200 rounded-full h-3">
                 <div 
                   className="bg-green-600 h-3 rounded-full transition-all duration-1000"
-                  style={{ width: `${(result.totalScore / 25) * 100}%` }}
+                  style={{ width: `${(result.totalScore / 30) * 100}%` }}
                 ></div>
               </div>
               <p className="text-gray-600 mt-2">
-                {((result.totalScore / 25) * 100).toFixed(1)}% Overall Score
+                {((result.totalScore / 30) * 100).toFixed(1)}% Overall Score
               </p>
             </div>
           </div>

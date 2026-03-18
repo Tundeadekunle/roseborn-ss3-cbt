@@ -552,7 +552,7 @@ export default function LoginPage() {
                       <div className="text-xs text-gray-600 mt-1">
                         {isCompleted ? (
                           <span className="text-green-600 font-semibold">
-                            ✅ Completed: {result?.score}/60
+                            ✅ Completed: {result?.score}/30
                           </span>
                         ) : isAvailable ? (
                           <span className="text-blue-600">Available</span>

@@ -73,11 +73,11 @@ export default function HomePage() {
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 max-w-4xl mx-auto">
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center border border-white/20">
-              <div className="text-3xl font-bold text-white mb-2">25</div>
+              <div className="text-3xl font-bold text-white mb-2">30</div>
               <div className="text-white/80">Total Questions</div>
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center border border-white/20">
-              <div className="text-3xl font-bold text-white mb-2">25</div>
+              <div className="text-3xl font-bold text-white mb-2">20</div>
               <div className="text-white/80">Minutes Duration</div>
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center border border-white/20">
@@ -229,13 +229,13 @@ export default function HomePage() {
                     <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <span className="text-green-600 text-sm font-bold">1</span>
                     </div>
-                    <p className="text-gray-700">Total duration: <strong>25 minutes</strong></p>
+                    <p className="text-gray-700">Total duration: <strong>20 minutes</strong></p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
                       <span className="text-green-600 text-sm font-bold">2</span>
                     </div>
-                    <p className="text-gray-700"><strong>60 multiple-choice</strong> questions (1 mark each)</p>
+                    <p className="text-gray-700"><strong>30 multiple-choice</strong> questions (1 mark each)</p>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">

@@ -229,7 +229,7 @@ const timeSpentFormatted = `${timeSpentMinutes} minutes`;
             <h2 className="text-xl font-semibold text-yellow-800 mb-4">Exam Structure</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <h3 className="font-semibold text-gray-800 mb-3">Section A: Multiple Choice (25 Questions)</h3>
+                <h3 className="font-semibold text-gray-800 mb-3">Section A: Multiple Choice (30 Questions)</h3>
                 <ul className="text-sm text-gray-700 space-y-2">
                   <li>• Various topics covering the subject</li>
                   <li>• Choose from options A, B, C, or D</li>
@@ -254,13 +254,13 @@ const timeSpentFormatted = `${timeSpentMinutes} minutes`;
                 <svg className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span><strong>Duration:</strong> 25 minutes</span>
+                <span><strong>Duration:</strong> 20 minutes</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span><strong>Total Marks:</strong> 25</span>
+                <span><strong>Total Marks:</strong> 30</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
