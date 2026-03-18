@@ -1,5 +1,8 @@
 import { Question, Subject } from '@/types';
 import { dataProcessingQuestions } from './computer';
+import { chemistryQuestions as chemistryQuestions } from './chemistry';
+import {biologyQuestions as biologyQuestions} from './biology';
+import {economicsQuestions as economicsQuestions} from './economics';
 
 
 export const getQuestionsBySubject = (subject: Subject): Question[] => {
@@ -8,10 +11,12 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
       return dataProcessingQuestions;
     // case 'history':
     //   return historyQuestions;
-    //   case 'business':
-    //   return businessQuestions;
-    // case 'cca':
-    //   return ccaQuestions;
+    case 'chemistry':
+      return chemistryQuestions;
+      case 'biology':
+      return biologyQuestions;
+    case 'economics':
+      return economicsQuestions;
     //   case 'computer':
     //   return dataProcessingQuestions;
     //   case 'phe':
@@ -29,7 +34,7 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
 
 export const getExamDurationBySubject = (subject: Subject): number => {
   // All subjects have 25-minute duration
-  return 25; // 25 minutes in minutes
+  return 20; // 25 minutes in minutes
 };
 
 export const getSubjectDisplayName = (subject: Subject): string => {
@@ -38,12 +43,12 @@ export const getSubjectDisplayName = (subject: Subject): string => {
       return 'Data Processing';
     // case 'history':
     //   return 'History';
-    // case 'cca':
-    //   return 'CCA';
-    //   case 'data processing':
-    //   return 'Data Processing';
-    //   case 'business':
-    //   return 'Business Studies';
+    case 'chemistry':
+      return 'Chemistry';
+      case 'biology':
+      return 'Biology';
+      case 'economics':
+      return 'Economics Studies';
     //   case 'crs':
     //   return 'Christian Religious Studies';
     //   case 'phe':
@@ -58,5 +63,5 @@ export const getSubjectDisplayName = (subject: Subject): string => {
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['data processing'];
+  return ['data processing' , 'chemistry', 'biology', 'economics'];
 };

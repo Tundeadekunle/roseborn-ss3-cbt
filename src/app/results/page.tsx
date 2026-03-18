@@ -164,11 +164,11 @@ export default function ResultsPage() {
               <div className="w-full bg-green-200 rounded-full h-3">
                 <div 
                   className="bg-green-600 h-3 rounded-full transition-all duration-1000"
-                  style={{ width: `${(result.totalScore / 60) * 100}%` }}
+                  style={{ width: `${(result.totalScore / 25) * 100}%` }}
                 ></div>
               </div>
               <p className="text-gray-600 mt-2">
-                {((result.totalScore / 60) * 100).toFixed(1)}% Overall Score
+                {((result.totalScore / 25) * 100).toFixed(1)}% Overall Score
               </p>
             </div>
           </div>

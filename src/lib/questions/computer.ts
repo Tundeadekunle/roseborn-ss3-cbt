@@ -1,7 +1,6 @@
 import { Question } from '@/types';
 
 export const dataProcessingQuestions: Question[] = [
-  // Section A: Multiple Choice Questions (25 Questions)
   {
     id: 1,
     type: 'multiple-choice',
@@ -10,8 +9,8 @@ export const dataProcessingQuestions: Question[] = [
     options: [
       "Processed facts",
       "Raw facts and figures",
-      "Meaningful output",
-      "Computer results"
+      "Organized information",
+      "Stored information"
     ],
     correctAnswer: "Raw facts and figures",
     marks: 1
@@ -20,18 +19,88 @@ export const dataProcessingQuestions: Question[] = [
     id: 2,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Information differs from data because information is",
+    question: "Information is defined as",
     options: [
-      "Unorganized",
-      "Raw",
-      "Meaningful and useful",
-      "Stored permanently"
+      "Raw data",
+      "Processed data that is meaningful",
+      "Unorganized facts",
+      "Computer instructions"
     ],
-    correctAnswer: "Meaningful and useful",
+    correctAnswer: "Processed data that is meaningful",
     marks: 1
   },
   {
     id: 3,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "Which of the following is an example of data?",
+    options: [
+      "Student report",
+      "Examination result summary",
+      "25, 40, 65",
+      "Newspaper"
+    ],
+    correctAnswer: "25, 40, 65",
+    marks: 1
+  },
+  {
+    id: 4,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "The process of converting data into meaningful form is called",
+    options: [
+      "Input",
+      "Storage",
+      "Processing",
+      "Output"
+    ],
+    correctAnswer: "Processing",
+    marks: 1
+  },
+  {
+    id: 5,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "Which stage of the information processing cycle involves entering data into the computer?",
+    options: [
+      "Output",
+      "Input",
+      "Processing",
+      "Storage"
+    ],
+    correctAnswer: "Input",
+    marks: 1
+  },
+  {
+    id: 6,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "Which stage produces useful information?",
+    options: [
+      "Output",
+      "Storage",
+      "Input",
+      "Collection"
+    ],
+    correctAnswer: "Output",
+    marks: 1
+  },
+  {
+    id: 7,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "The stage where processed data is kept for future use is",
+    options: [
+      "Processing",
+      "Storage",
+      "Input",
+      "Collection"
+    ],
+    correctAnswer: "Storage",
+    marks: 1
+  },
+  {
+    id: 8,
     type: 'multiple-choice',
     subject: 'data processing',
     question: "Which of the following is NOT a type of data?",
@@ -39,119 +108,49 @@ export const dataProcessingQuestions: Question[] = [
       "Numeric",
       "Text",
       "Audio",
-      "Useful"
+      "Computer"
     ],
-    correctAnswer: "Useful",
-    marks: 1
-  },
-  {
-    id: 4,
-    type: 'multiple-choice',
-    subject: 'data processing',
-    question: "Figures such as 45, 60, and 89 are examples of",
-    options: [
-      "Text data",
-      "Numeric data",
-      "Audio data",
-      "Graphic data"
-    ],
-    correctAnswer: "Numeric data",
-    marks: 1
-  },
-  {
-    id: 5,
-    type: 'multiple-choice',
-    subject: 'data processing',
-    question: "The correct order of the information processing cycle is",
-    options: [
-      "Input → Output → Processing → Storage",
-      "Input → Processing → Output → Storage",
-      "Processing → Input → Output → Storage",
-      "Storage → Input → Processing → Output"
-    ],
-    correctAnswer: "Input → Processing → Output → Storage",
-    marks: 1
-  },
-  {
-    id: 6,
-    type: 'multiple-choice',
-    subject: 'data processing',
-    question: "Which stage of the processing cycle involves saving data for future use?",
-    options: [
-      "Input",
-      "Processing",
-      "Output",
-      "Storage"
-    ],
-    correctAnswer: "Storage",
-    marks: 1
-  },
-  {
-    id: 7,
-    type: 'multiple-choice',
-    subject: 'data processing',
-    question: "Manual data processing involves the use of",
-    options: [
-      "Computers only",
-      "Human effort and paper",
-      "Electronic machines",
-      "Internet services"
-    ],
-    correctAnswer: "Human effort and paper",
-    marks: 1
-  },
-  {
-    id: 8,
-    type: 'multiple-choice',
-    subject: 'data processing',
-    question: "Which of the following is an advantage of electronic data processing?",
-    options: [
-      "High error rate",
-      "Slow speed",
-      "Accuracy",
-      "Limited storage"
-    ],
-    correctAnswer: "Accuracy",
+    correctAnswer: "Computer",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "One major disadvantage of manual data processing is that it is",
+    question: "Numbers such as 45, 89 and 100 are examples of",
     options: [
-      "Accurate",
-      "Fast",
-      "Time-consuming",
-      "Reliable"
+      "Text data",
+      "Numeric data",
+      "Graphic data",
+      "Audio data"
     ],
-    correctAnswer: "Time-consuming",
+    correctAnswer: "Numeric data",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Mechanical data processing makes use of",
+    question: "Data processing done entirely by human effort is called",
     options: [
-      "Human brain only",
-      "Simple machines",
-      "Electronic circuits",
-      "Software programs"
+      "Mechanical processing",
+      "Manual processing",
+      "Electronic processing",
+      "Automatic processing"
     ],
-    correctAnswer: "Simple machines",
+    correctAnswer: "Manual processing",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is an example of mechanical data processing?",
+    question: "An example of mechanical data processing device is",
     options: [
-      "Desktop computer",
-      "Smartphone",
+      "Computer",
       "Calculator",
-      "Server"
+      "Printer",
+      "Monitor"
     ],
     correctAnswer: "Calculator",
     marks: 1
@@ -160,196 +159,266 @@ export const dataProcessingQuestions: Question[] = [
     id: 12,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Electronic data processing uses",
+    question: "Electronic data processing involves the use of",
     options: [
-      "Files and folders",
-      "Human labor only",
-      "Computers and electronic devices",
-      "Printed materials"
+      "Paper files",
+      "Human effort",
+      "Computers",
+      "Pens and paper"
     ],
-    correctAnswer: "Computers and electronic devices",
+    correctAnswer: "Computers",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "A computer system is made up of",
+    question: "Which method of data processing is the fastest?",
     options: [
-      "Hardware only",
-      "Software only",
-      "Hardware, software and users",
-      "Data only"
+      "Manual",
+      "Mechanical",
+      "Electronic",
+      "Paper"
     ],
-    correctAnswer: "Hardware, software and users",
+    correctAnswer: "Electronic",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is NOT part of the computer system?",
+    question: "Which method of data processing has the highest chance of errors?",
     options: [
-      "Hardware",
-      "Software",
-      "Users",
-      "Electricity"
+      "Electronic",
+      "Mechanical",
+      "Manual",
+      "Automatic"
     ],
-    correctAnswer: "Electricity",
+    correctAnswer: "Manual",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Supercomputers are mainly used for",
+    question: "A computer system consists of",
     options: [
-      "Playing games",
-      "Office work",
-      "Complex scientific calculations",
-      "Typing documents"
+      "Hardware only",
+      "Software only",
+      "Hardware, software and people",
+      "Electricity only"
     ],
-    correctAnswer: "Complex scientific calculations",
+    correctAnswer: "Hardware, software and people",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which type of computer is most suitable for personal use?",
+    question: "The physical parts of a computer are called",
     options: [
-      "Supercomputer",
-      "Mainframe",
-      "Minicomputer",
-      "Microcomputer"
+      "Software",
+      "Hardware",
+      "Programs",
+      "Instructions"
     ],
-    correctAnswer: "Microcomputer",
+    correctAnswer: "Hardware",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "The Central Processing Unit (CPU) is often referred to as the",
+    question: "Programs that tell the computer what to do are called",
     options: [
-      "Memory of the computer",
-      "Brain of the computer",
-      "Input unit",
-      "Output unit"
+      "Hardware",
+      "Devices",
+      "Software",
+      "Data"
     ],
-    correctAnswer: "Brain of the computer",
+    correctAnswer: "Software",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is an input device?",
+    question: "Which of the following is NOT hardware?",
     options: [
-      "Monitor",
-      "Printer",
       "Keyboard",
-      "Speaker"
+      "Mouse",
+      "Microsoft Word",
+      "Monitor"
     ],
-    correctAnswer: "Keyboard",
+    correctAnswer: "Microsoft Word",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which device is used to display information on a computer screen?",
+    question: "Which of the following is application software?",
     options: [
-      "Scanner",
-      "Monitor",
-      "Keyboard",
-      "Mouse"
+      "Windows",
+      "Linux",
+      "Microsoft Word",
+      "DOS"
     ],
-    correctAnswer: "Monitor",
+    correctAnswer: "Microsoft Word",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Software can best be defined as",
+    question: "Which of the following is system software?",
     options: [
-      "Physical parts of a computer",
-      "Computer instructions and programs",
-      "Computer accessories",
-      "Input devices"
+      "Microsoft Excel",
+      "Operating system",
+      "PowerPoint",
+      "CorelDraw"
     ],
-    correctAnswer: "Computer instructions and programs",
+    correctAnswer: "Operating system",
     marks: 1
   },
   {
     id: 21,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is an example of system software?",
+    question: "A computer designed for personal use is called",
     options: [
-      "Microsoft Word",
-      "CorelDraw",
-      "Operating system",
-      "Spreadsheet"
+      "Supercomputer",
+      "Mainframe",
+      "Microcomputer",
+      "Minicomputer"
     ],
-    correctAnswer: "Operating system",
+    correctAnswer: "Microcomputer",
     marks: 1
   },
   {
     id: 22,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Application software is mainly used to",
+    question: "Computers used for complex scientific calculations are",
     options: [
-      "Control hardware",
-      "Perform specific tasks",
-      "Manufacture computers",
-      "Store data permanently"
+      "Microcomputers",
+      "Supercomputers",
+      "Laptops",
+      "Tablets"
     ],
-    correctAnswer: "Perform specific tasks",
+    correctAnswer: "Supercomputers",
     marks: 1
   },
   {
     id: 23,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is NOT an application software?",
+    question: "Which computer is used by large organizations to process large amounts of data?",
     options: [
-      "MS Excel",
-      "MS Word",
-      "Windows 10",
-      "PowerPoint"
+      "Laptop",
+      "Mainframe",
+      "Tablet",
+      "Desktop"
     ],
-    correctAnswer: "Windows 10",
+    correctAnswer: "Mainframe",
     marks: 1
   },
   {
     id: 24,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Hardware refers to",
+    question: "Which of the following is an example of hardware?",
     options: [
-      "Programs used by the computer",
-      "Human operators",
-      "Physical components of the computer",
-      "Data stored in memory"
+      "Windows",
+      "Keyboard",
+      "Excel",
+      "Word"
     ],
-    correctAnswer: "Physical components of the computer",
+    correctAnswer: "Keyboard",
     marks: 1
   },
   {
     id: 25,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following statements is TRUE?",
+    question: "The brain of the computer is the",
     options: [
-      "Manual processing is more accurate than electronic processing",
-      "Mechanical processing uses computers",
-      "Electronic processing is faster and more reliable",
-      "Data and information mean the same thing"
+      "Monitor",
+      "CPU",
+      "Keyboard",
+      "Mouse"
     ],
-    correctAnswer: "Electronic processing is faster and more reliable",
+    correctAnswer: "CPU",
+    marks: 1
+  },
+  {
+    id: 26,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "Which of the following is an output device?",
+    options: [
+      "Keyboard",
+      "Mouse",
+      "Monitor",
+      "Scanner"
+    ],
+    correctAnswer: "Monitor",
+    marks: 1
+  },
+  {
+    id: 27,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "Which device is used to type data into the computer?",
+    options: [
+      "Printer",
+      "Keyboard",
+      "Speaker",
+      "Monitor"
+    ],
+    correctAnswer: "Keyboard",
+    marks: 1
+  },
+  {
+    id: 28,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "Which of the following is an advantage of electronic data processing?",
+    options: [
+      "Slow speed",
+      "High accuracy",
+      "Limited storage",
+      "High error rate"
+    ],
+    correctAnswer: "High accuracy",
+    marks: 1
+  },
+  {
+    id: 29,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "Which of the following is NOT a type of computer?",
+    options: [
+      "Supercomputer",
+      "Mainframe",
+      "Microcomputer",
+      "Typewriter"
+    ],
+    correctAnswer: "Typewriter",
+    marks: 1
+  },
+  {
+    id: 30,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "The combination of hardware and software working together is called",
+    options: [
+      "Computer device",
+      "Computer system",
+      "Computer network",
+      "Computer program"
+    ],
+    correctAnswer: "Computer system",
     marks: 1
   }
 ];
