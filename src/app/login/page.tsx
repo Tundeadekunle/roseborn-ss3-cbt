@@ -387,7 +387,7 @@ export default function LoginPage() {
                   required
                   value={formData.studentName}
                   onChange={(e) => handleInputChange('studentName', e.target.value)}
-                  className={`block w-full pl-10 pr-4 py-3 border rounded-xl placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all ${
+                  className={`block w-full pl-10 text-black pr-4 py-3 border rounded-xl placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all ${
                     errors.studentName ? 'border-red-300 bg-red-50' : 'border-gray-300'
                   }`}
                   placeholder="Enter your full name"
