@@ -5,420 +5,560 @@ export const economicsQuestions: Question[] = [
     id: 1,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "The type of capital which is provided by the government is called...........",
+    question: "Money is anything that is generally accepted as:",
     options: [
-      "fixed capital",
-      "social capital",
-      "variable capital",
-      "circulating capital"
+      "Wealth",
+      "Payment for goods and services",
+      "Capital",
+      "Labour"
     ],
-    correctAnswer: "social capital",
+    correctAnswer: "Payment for goods and services",
     marks: 1
   },
   {
     id: 2,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "The most active factor of production is................",
+    question: "Which of the following is NOT a function of money?",
     options: [
-      "capital",
-      "labour",
-      "land",
-      "entrepreneur"
+      "Medium of exchange",
+      "Store of value",
+      "Unit of account",
+      "Source of production"
     ],
-    correctAnswer: "entrepreneur",
+    correctAnswer: "Source of production",
     marks: 1
   },
   {
     id: 3,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "The factor of production which has absolute control and bears the risks of the business is................",
+    question: "The primary function of money is:",
     options: [
-      "entrepreneur",
-      "land",
-      "labour",
-      "capital"
+      "Store of value",
+      "Medium of exchange",
+      "Standard of deferred payment",
+      "Measure of population"
     ],
-    correctAnswer: "entrepreneur",
+    correctAnswer: "Medium of exchange",
     marks: 1
   },
   {
     id: 4,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "Division of labour was propounded by",
+    question: "Which of the following is an example of commodity money?",
     options: [
-      "David Richardo",
-      "Thomas Malthus",
-      "Lord Keynes",
-      "Adams smith"
+      "Cowries",
+      "Cheque",
+      "Debit card",
+      "Banknote"
     ],
-    correctAnswer: "Adams smith",
+    correctAnswer: "Cowries",
     marks: 1
   },
   {
     id: 5,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "The concentration of one’s productive efforts on a particular line of production is..........",
+    question: "Which of the following is NOT a characteristic of good money?",
     options: [
-      "distribution",
-      "specialization",
-      "efficiency",
-      "co-ordination"
+      "Durability",
+      "Portability",
+      "Divisibility",
+      "Perishability"
     ],
-    correctAnswer: "specialization",
+    correctAnswer: "Perishability",
     marks: 1
   },
   {
     id: 6,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "The concentration of a region in a particular aspect of economic activities is.............",
+    question: "The system of exchanging goods for goods is called:",
     options: [
-      "specialization by sex",
-      "specialization by product",
-      "specialization by process",
-      "territorial specialization"
+      "Trade",
+      "Money economy",
+      "Barter",
+      "Banking"
     ],
-    correctAnswer: "territorial specialization",
+    correctAnswer: "Barter",
     marks: 1
   },
   {
     id: 7,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "Supervision and control is easier",
+    question: "One major problem of barter is:",
     options: [
-      "in small firms",
-      "in large firm",
-      "to finance",
-      "commonly the same in both"
+      "Inflation",
+      "Double coincidence of wants",
+      "Banking crisis",
+      "Taxation"
     ],
-    correctAnswer: "in small firms",
+    correctAnswer: "Double coincidence of wants",
     marks: 1
   },
   {
     id: 8,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "The joint stock companies are an example of",
+    question: "Which of these is a function of money?",
     options: [
-      "market",
-      "medium firms",
-      "large firm",
-      "Small firm"
+      "Measure of value",
+      "Population control",
+      "Price fixing",
+      "Resource allocation"
     ],
-    correctAnswer: "large firm",
+    correctAnswer: "Measure of value",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "When the growth of a firm is achieved by its own single effort, it is called",
+    question: "Demand refers to the:",
     options: [
-      "external diseconomies",
-      "Internal diseconomies",
-      "external economies",
-      "internal economies of scale"
+      "Desire for a commodity only",
+      "Quantity of a commodity consumers are willing and able to buy at a given price",
+      "Goods available in the market",
+      "Quantity produced by firms"
     ],
-    correctAnswer: "internal economies of scale",
+    correctAnswer: "Quantity of a commodity consumers are willing and able to buy at a given price",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "Characteristics of a small firm over large firms includes",
+    question: "The law of demand states that:",
     options: [
-      "small capital required",
-      "large capital requirement",
-      "provision of standardized product",
-      "large market"
+      "Price and quantity demanded move in the same direction",
+      "Higher prices increase demand",
+      "Quantity demanded falls as price rises",
+      "Demand is always constant"
     ],
-    correctAnswer: "small capital required",
+    correctAnswer: "Quantity demanded falls as price rises",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "What is Average Product?",
+    question: "Demand curve slopes downward because:",
     options: [
-      "TP/ MP",
-      "MP x AP",
-      "TP / Number of workers (Labour)",
-      "TP x MP"
+      "Higher prices reduce quantity demanded",
+      "Higher prices increase supply",
+      "Demand is unlimited",
+      "Production costs fall"
     ],
-    correctAnswer: "TP / Number of workers (Labour)",
+    correctAnswer: "Higher prices reduce quantity demanded",
     marks: 1
   },
   {
     id: 12,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "What is the total product ?",
+    question: "Supply means:",
     options: [
-      "total output",
-      "average production",
-      "total cost",
-      "average cost"
+      "Goods bought by consumers",
+      "Quantity producers are willing and able to offer for sale",
+      "Goods imported into a country",
+      "Goods stored in warehouses"
     ],
-    correctAnswer: "total output",
+    correctAnswer: "Quantity producers are willing and able to offer for sale",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "In ordinary partnership the risk are",
+    question: "The law of supply states that:",
     options: [
-      "borne by the workers",
-      "borne by the creditors",
-      "shared among the partners",
-      "under taken by the active partner"
+      "Supply falls as price rises",
+      "Supply rises as price rises",
+      "Supply is fixed",
+      "Price has no effect on supply"
     ],
-    correctAnswer: "shared among the partners",
+    correctAnswer: "Supply rises as price rises",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "A major disadvantage of partnership form of business is that",
+    question: "A supply curve generally slopes:",
     options: [
-      "every partner has to be consulted during decision making",
-      "partners could be too friendly with their customers",
-      "affairs can be kept private",
-      "partners can take long holidays"
+      "Downward",
+      "Upward",
+      "Horizontally",
+      "Vertically"
     ],
-    correctAnswer: "every partner has to be consulted during decision making",
+    correctAnswer: "Upward",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "Which of the following is not a feature of a sole trader",
+    question: "Equilibrium price is the price at which:",
     options: [
-      "decisions can only be taken by 10 people",
-      "he provides capital to start the business.",
-      "there is unlimited liability.",
-      "continuity is doubtful."
+      "Demand exceeds supply",
+      "Supply exceeds demand",
+      "Demand equals supply",
+      "Consumers stop buying"
     ],
-    correctAnswer: "decisions can only be taken by 10 people",
+    correctAnswer: "Demand equals supply",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "In a sole proprietorship decision are made by the",
+    question: "Distributive trade is the:",
     options: [
-      "government",
-      "owner",
-      "management",
-      "board of directors"
+      "Production of goods",
+      "Exchange of goods and services from producers to consumers",
+      "Consumption of goods",
+      "Manufacture of goods"
     ],
-    correctAnswer: "owner",
+    correctAnswer: "Exchange of goods and services from producers to consumers",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "The joint Stock company can be a private company whose minimum membership is",
+    question: "The person who buys goods in large quantities from producers and sells to retailers is the:",
     options: [
-      "2",
-      "5",
-      "7",
-      "10"
+      "Retailer",
+      "Consumer",
+      "Wholesaler",
+      "Agent"
     ],
-    correctAnswer: "2",
+    correctAnswer: "Wholesaler",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "The management of public limited company is by the",
+    question: "Which of the following provides protection against business risks?",
     options: [
-      "customers",
-      "shareholders",
-      "board of directors",
-      "government"
+      "Banking",
+      "Insurance",
+      "Transport",
+      "Warehousing"
     ],
-    correctAnswer: "board of directors",
+    correctAnswer: "Insurance",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "The maximum membership of a private company is",
+    question: "The main function of transport in trade is to:",
     options: [
-      "50",
-      "100",
-      "1000",
-      "unlimited"
+      "Produce goods",
+      "Move goods from one place to another",
+      "Advertise products",
+      "Collect taxes"
     ],
-    correctAnswer: "50",
+    correctAnswer: "Move goods from one place to another",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "Where the net profit of a business is re-invested as a capital, it is called....",
+    question: "Warehousing is important because it:",
     options: [
-      "invested capital",
-      "capital profit",
-      "re-invested capital",
-      "ploughed-back profit"
+      "Manufactures goods",
+      "Stores goods until they are needed",
+      "Promotes exports only",
+      "Increases production costs"
     ],
-    correctAnswer: "ploughed-back profit",
+    correctAnswer: "Stores goods until they are needed",
     marks: 1
   },
   {
     id: 21,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "Public corporation is owned by the government but financed by",
+    question: "Advertising helps to:",
     options: [
-      "foreigners",
-      "tax payers money",
-      "micro finance banks",
-      "share subscription."
+      "Destroy goods",
+      "Create awareness of goods and services",
+      "Increase taxation",
+      "Reduce production"
     ],
-    correctAnswer: "tax payers money",
+    correctAnswer: "Create awareness of goods and services",
     marks: 1
   },
   {
     id: 22,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "Public corporation helps to",
+    question: "A wholesaler performs all the following functions except:",
     options: [
-      "stabilize demand",
-      "create jobs",
-      "decline supply",
-      "fund corruption."
+      "Breaking bulk",
+      "Granting credit to retailers",
+      "Manufacturing goods",
+      "Warehousing"
     ],
-    correctAnswer: "create jobs",
+    correctAnswer: "Manufacturing goods",
     marks: 1
   },
   {
     id: 23,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "Increasing population is characterized by greater percentage growth rate of................",
+    question: "Breaking bulk means:",
     options: [
-      "adult",
-      "male",
-      "youth",
-      "female"
+      "Destroying damaged goods",
+      "Selling goods in smaller quantities",
+      "Packaging goods",
+      "Exporting goods"
     ],
-    correctAnswer: "youth",
+    correctAnswer: "Selling goods in smaller quantities",
     marks: 1
   },
   {
     id: 24,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "West African countries experience rapid population growth due to?",
+    question: "Which of the following is a function of a retailer?",
     options: [
-      "existence of birth control clinics",
-      "early marriages",
-      "adequate sex education in schools",
-      "late marriages"
+      "Producing goods",
+      "Selling in small quantities",
+      "Mining raw materials",
+      "Importing only"
     ],
-    correctAnswer: "early marriages",
+    correctAnswer: "Selling in small quantities",
     marks: 1
   },
   {
     id: 25,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "Net Migration is the difference between",
+    question: "Which means of communication is commonly used in business?",
     options: [
-      "population and census",
-      "immigrants and emigrants",
-      "PCI and population",
-      "Internal and external migration."
+      "Telephone",
+      "Television",
+      "Radio",
+      "All of the above"
     ],
-    correctAnswer: "immigrants and emigrants",
+    correctAnswer: "All of the above",
     marks: 1
   },
   {
     id: 26,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "The natural growth rate of the population of a country is determined through..........",
+    question: "The final stage in the chain of distribution is the:",
     options: [
-      "birth and death rate",
-      "emigration and immigration",
-      "birth rate and emigration",
-      "immigration and death rate"
+      "Producer",
+      "Wholesaler",
+      "Retailer",
+      "Consumer"
     ],
-    correctAnswer: "birth and death rate",
+    correctAnswer: "Consumer",
     marks: 1
   },
   {
     id: 27,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "Census of population is usually conducted every",
+    question: "The primary function of a commercial bank is to:",
     options: [
-      "20 years",
-      "15 years",
-      "10 years",
-      "7 years"
+      "Produce goods",
+      "Accept deposits and grant loans",
+      "Build roads",
+      "Collect taxes"
     ],
-    correctAnswer: "10 years",
+    correctAnswer: "Accept deposits and grant loans",
     marks: 1
   },
   {
     id: 28,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "Which of the following increase the population of a country",
+    question: "Which financial institution issues currency in a country?",
     options: [
-      "increase in birth rate",
-      "increase in death rate",
-      "emigration",
-      "marriage"
+      "Commercial Bank",
+      "Merchant Bank",
+      "Central Bank",
+      "Mortgage Bank"
     ],
-    correctAnswer: "increase in birth rate",
+    correctAnswer: "Central Bank",
     marks: 1
   },
   {
     id: 29,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "Which co-operative society pool resources together to purchase goods in large quantity and sell to the retailer in small quantity.",
+    question: "Interest on deposits is usually paid on:",
     options: [
-      "Producer co-operative society",
-      "Retailer co-operative society",
-      "Multipurpose co-operative society",
-      "Wholesaler co-operative society"
+      "Savings account",
+      "Current account only",
+      "Loan account",
+      "Cheque account only"
     ],
-    correctAnswer: "Wholesaler co-operative society",
+    correctAnswer: "Savings account",
     marks: 1
   },
   {
     id: 30,
     type: 'multiple-choice',
     subject: 'economics',
-    question: "Grouping of population into female and male is -------- distribution",
+    question: "Which of the following is not a function of commercial banks?",
     options: [
-      "age",
-      "geographical",
-      "gender",
-      "occupation"
+      "Accepting deposits",
+      "Granting loans",
+      "Issuing national currency",
+      "Providing overdrafts"
     ],
-    correctAnswer: "gender",
+    correctAnswer: "Issuing national currency",
+    marks: 1
+  },
+  {
+    id: 31,
+    type: 'multiple-choice',
+    subject: 'economics',
+    question: "Production is the:",
+    options: [
+      "Consumption of goods",
+      "Creation of utility",
+      "Exchange of goods",
+      "Distribution of goods"
+    ],
+    correctAnswer: "Creation of utility",
+    marks: 1
+  },
+  {
+    id: 32,
+    type: 'multiple-choice',
+    subject: 'economics',
+    question: "Capital in Economics means:",
+    options: [
+      "Money only",
+      "Man-made assets used in production",
+      "Government revenue",
+      "Land and buildings only"
+    ],
+    correctAnswer: "Man-made assets used in production",
+    marks: 1
+  },
+  {
+    id: 33,
+    type: 'multiple-choice',
+    subject: 'economics',
+    question: "Which of the following is an example of land as a factor of production?",
+    options: [
+      "Mineral resources",
+      "Machines",
+      "Workers",
+      "Money"
+    ],
+    correctAnswer: "Mineral resources",
+    marks: 1
+  },
+  {
+    id: 34,
+    type: 'multiple-choice',
+    subject: 'economics',
+    question: "Human effort that is paid for is known as:",
+    options: [
+      "Labour",
+      "Capital",
+      "Enterprise",
+      "Land"
+    ],
+    correctAnswer: "Labour",
+    marks: 1
+  },
+  {
+    id: 35,
+    type: 'multiple-choice',
+    subject: 'economics',
+    question: "Which of the following is a feature of land?",
+    options: [
+      "It is man-made.",
+      "Its supply is fixed.",
+      "It can be increased by production.",
+      "It earns wages."
+    ],
+    correctAnswer: "Its supply is fixed.",
+    marks: 1
+  },
+  {
+    id: 36,
+    type: 'multiple-choice',
+    subject: 'economics',
+    question: "Which stage of production involves converting raw materials into finished goods?",
+    options: [
+      "Primary production",
+      "Secondary production",
+      "Tertiary production",
+      "Consumption"
+    ],
+    correctAnswer: "Secondary production",
+    marks: 1
+  },
+  {
+    id: 37,
+    type: 'multiple-choice',
+    subject: 'economics',
+    question: "Which type of census records people at their permanent homes?",
+    options: [
+      "De facto census",
+      "De jure census",
+      "Sample survey",
+      "Opinion poll"
+    ],
+    correctAnswer: "De jure census",
+    marks: 1
+  },
+  {
+    id: 38,
+    type: 'multiple-choice',
+    subject: 'economics',
+    question: "Which of the following can lead to inaccurate census results?",
+    options: [
+      "Political interference",
+      "Proper training",
+      "Effective supervision",
+      "Public cooperation"
+    ],
+    correctAnswer: "Political interference",
+    marks: 1
+  },
+  {
+    id: 39,
+    type: 'multiple-choice',
+    subject: 'economics',
+    question: "Which of the following is not an objective of a population census?",
+    options: [
+      "Economic planning",
+      "Allocation of resources",
+      "Election planning",
+      "Increasing inflation"
+    ],
+    correctAnswer: "Increasing inflation",
+    marks: 1
+  },
+  {
+    id: 40,
+    type: 'multiple-choice',
+    subject: 'economics',
+    question: "A population census is the:",
+    options: [
+      "Collection of taxes",
+      "Official counting of the population of a country",
+      "Distribution of income",
+      "Registration of voters"
+    ],
+    correctAnswer: "Official counting of the population of a country",
     marks: 1
   }
 ];

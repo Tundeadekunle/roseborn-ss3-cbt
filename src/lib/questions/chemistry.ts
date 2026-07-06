@@ -5,280 +5,560 @@ export const chemistryQuestions: Question[] = [
     id: 1,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "The mole is defined as the amount of substance that contains ______ particles.",
+    question: "Which state of matter has particles with the weakest force of attraction?",
     options: [
-      "6.0 × 10²²",
-      "6.0 × 10²³",
-      "6.0 × 10²⁴",
-      "6.0 × 10²⁶"
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Plasma"
     ],
-    correctAnswer: "6.0 × 10²³",
+    correctAnswer: "Gas",
     marks: 1
   },
   {
     id: 2,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "The number is called 6.0 × 10²³ ______.",
+    question: "According to kinetic theory, particles in a gas move:",
     options: [
-      "Mole number",
-      "Avogadro's number",
-      "Molar constant",
-      "Gas constant"
+      "Randomly with high speed",
+      "In fixed positions",
+      "Slowly in an orderly manner",
+      "Only when heated"
     ],
-    correctAnswer: "Avogadro's number",
+    correctAnswer: "Randomly with high speed",
     marks: 1
   },
   {
     id: 3,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "The molar volume of a gas at standard temperature and pressure is ______",
+    question: "Diffusion is fastest in:",
     options: [
-      "11.2 dm³",
-      "22.4 dm³",
-      "24.0 dm³",
-      "44.8 dm³"
+      "Solids",
+      "Liquids",
+      "Gases",
+      "All equal"
     ],
-    correctAnswer: "22.4 dm³",
+    correctAnswer: "Gases",
     marks: 1
   },
   {
     id: 4,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "The process of making the number of atoms of each element equal on both sides of a chemical equation is called ______.",
+    question: "The IUPAC name of NaCl is:",
     options: [
-      "chemical reaction",
-      "balancing equation",
-      "Neutralization",
-      "synthesis"
+      "Sodium chloride",
+      "Sodium chlorate",
+      "Sodium chlorine",
+      "Sodium chlorite"
     ],
-    correctAnswer: "balancing equation",
+    correctAnswer: "Sodium chloride",
     marks: 1
   },
   {
     id: 5,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "In stoichiometry, calculations are based on ______",
+    question: "The chemical symbol for potassium is:",
     options: [
-      "colour changes",
-      "balanced chemical equations",
-      "gas pressure",
-      "temperature changes"
+      "Po",
+      "K",
+      "P",
+      "Pt"
     ],
-    correctAnswer: "balanced chemical equations",
+    correctAnswer: "K",
     marks: 1
   },
   {
     id: 6,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "The simplest whole-number ratio of atoms in a compound is called the ______",
+    question: "Balance: Fe + O₂ → Fe₂O₃. Coefficient of Fe is:",
     options: [
-      "molecular formula",
-      "empirical formula",
-      "structural formula",
-      "chemical formula"
+      "2",
+      "3",
+      "4",
+      "1"
     ],
-    correctAnswer: "empirical formula",
+    correctAnswer: "4",
     marks: 1
   },
   {
     id: 7,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "The actual number of atoms present in a molecule of a compound is its ______",
+    question: "The formula of calcium carbonate is:",
     options: [
-      "empirical formula",
-      "molecular formula",
-      "ionic formula",
-      "atomic formula"
+      "CaCO₃",
+      "Ca(HCO₃)₂",
+      "CaO",
+      "CaCl₂"
     ],
-    correctAnswer: "molecular formula",
+    correctAnswer: "CaCO₃",
     marks: 1
   },
   {
     id: 8,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "The law that states that matter can neither be created nor destroyed during a chemical reaction is the ______.",
+    question: "Which method separates sand and water?",
     options: [
-      "Law of multiple proportion",
-      "Law of conservation of mass",
-      "Law of combining volumes",
-      "Dalton's law"
+      "Distillation",
+      "Filtration",
+      "Sublimation",
+      "Magnetism"
     ],
-    correctAnswer: "Law of conservation of mass",
+    correctAnswer: "Filtration",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "The law of constant composition states that ______",
+    question: "A mixture of ethanol and water can be separated by:",
     options: [
-      "compounds contain elements in fixed proportions",
-      "elements combine randomly",
-      "atoms are indivisible",
-      "gases occupy equal volume"
+      "Filtration",
+      "Fractional distillation",
+      "Chromatography",
+      "Decantation"
     ],
-    correctAnswer: "compounds contain elements in fixed proportions",
+    correctAnswer: "Fractional distillation",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "According to the kinetic theory, particles of matter are in ______",
+    question: "Air is an example of a:",
     options: [
-      "Rest",
-      "Motion",
-      "Balance",
-      "vibration only"
+      "Compound",
+      "Homogeneous mixture",
+      "Element",
+      "Pure substance"
     ],
-    correctAnswer: "Motion",
+    correctAnswer: "Homogeneous mixture",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "Boyle's law states that the volume of a fixed mass of gas is ______ proportional to pressure at constant temperature.",
+    question: "The empirical formula of a compound with 92.3% C and 7.7% H is:",
     options: [
-      "Directly",
-      "Inversely",
-      "Equally",
-      "linearly"
+      "CH",
+      "CH₂",
+      "C₂H₆",
+      "CH₄"
     ],
-    correctAnswer: "Inversely",
+    correctAnswer: "CH",
     marks: 1
   },
   {
     id: 12,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "Charles' law states that the volume of a gas is directly proportional to its ______ at constant pressure.",
+    question: "If empirical formula = CH₂O and molar mass = 180g, molecular formula is:",
     options: [
-      "Pressure",
-      "Temperature",
-      "Mass",
-      "density"
+      "CH₂O",
+      "C₂H₄O₂",
+      "C₆H₁₂O₆",
+      "C₃H₆O₃"
     ],
-    correctAnswer: "Temperature",
+    correctAnswer: "C₆H₁₂O₆",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "Avogadro's law states that equal volumes of gases at the same temperature and pressure contain ______",
+    question: "The molar mass of H₂SO₄ is: [H=1, S=32, O=16]",
     options: [
-      "equal masses",
-      "equal molecules",
-      "equal densities",
-      "equal weights"
+      "49",
+      "98",
+      "64",
+      "80"
     ],
-    correctAnswer: "equal molecules",
+    correctAnswer: "98",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "A balanced chemical equation obeys the law of ______.",
+    question: "Charles' law states that at constant pressure, volume is ___ to temperature:",
     options: [
-      "conservation of mass",
-      "Diffusion",
-      "gas expansion",
-      "Thermodynamics"
+      "Inversely proportional",
+      "Directly proportional",
+      "Equal",
+      "Unrelated"
     ],
-    correctAnswer: "conservation of mass",
+    correctAnswer: "Directly proportional",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "Equal volumes of all gases at the same temperature and pressure contain the same number of ______",
+    question: "If V₁ = 300 cm³ at 27°C, find V₂ at 127°C at constant P:",
     options: [
-      "Atoms",
-      "Molecules",
-      "Elements",
-      "compounds"
+      "400 cm³",
+      "450 cm³",
+      "500 cm³",
+      "600 cm³"
     ],
-    correctAnswer: "Molecules",
+    correctAnswer: "400 cm³",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "The coefficient in a chemical equation shows the ______",
+    question: "The ideal gas equation is:",
     options: [
-      "state of matter",
-      "number of molecules",
-      "reaction speed",
-      "temperature of reaction"
+      "PV = nRT",
+      "P₁V₁ = P₂V₂",
+      "V₁/T₁ = V₂/T₂",
+      "P₁/T₁ = P₂/T₂"
     ],
-    correctAnswer: "number of molecules",
+    correctAnswer: "PV = nRT",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "Stoichiometry calculations are based on ______.",
+    question: "R in the ideal gas equation has a value of:",
     options: [
-      "experimental observations",
-      "balanced equations",
-      "colour changes",
-      "gas laws"
+      "8.31 J mol⁻¹K⁻¹",
+      "22.4 dm³",
+      "273K",
+      "6.02 × 10²³"
     ],
-    correctAnswer: "balanced equations",
+    correctAnswer: "8.31 J mol⁻¹K⁻¹",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "Which of the following is NOT a gas law?",
+    question: "Which allotrope of carbon is the hardest natural substance?",
     options: [
-      "Boyle's law",
-      "Charles' law",
-      "Dalton's law",
-      "Newton's law"
+      "Graphite",
+      "Diamond",
+      "Charcoal",
+      "Soot"
     ],
-    correctAnswer: "Newton's law",
+    correctAnswer: "Diamond",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "The relationship between pressure and temperature at constant volume is explained by ______",
+    question: "Graphite conducts electricity because it has:",
     options: [
-      "Boyle's law",
-      "Charles' law",
-      "Gay-Lussac's law",
-      "Graham's law"
+      "Free electrons",
+      "Ions",
+      "Molecules",
+      "Covalent bonds only"
     ],
-    correctAnswer: "Gay-Lussac's law",
+    correctAnswer: "Free electrons",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'chemistry',
-    question: "Which of the following particles carries a negative charge?",
+    question: "Carbon dioxide turns lime water:",
     options: [
-      "Proton",
-      "Neutron",
-      "Electron",
-      "Nucleus"
+      "Blue",
+      "Milky",
+      "Red",
+      "No change"
     ],
-    correctAnswer: "Electron",
+    correctAnswer: "Milky",
+    marks: 1
+  },
+  {
+    id: 21,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "Acids produce ___ ions in aqueous solution:",
+    options: [
+      "OH⁻",
+      "H⁺",
+      "Na⁺",
+      "Cl⁻"
+    ],
+    correctAnswer: "H⁺",
+    marks: 1
+  },
+  {
+    id: 22,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "A base that dissolves in water is called:",
+    options: [
+      "Alkali",
+      "Salt",
+      "Oxide",
+      "Acid"
+    ],
+    correctAnswer: "Alkali",
+    marks: 1
+  },
+  {
+    id: 23,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "HCl + NaOH → NaCl + H₂O is a ___ reaction:",
+    options: [
+      "Redox",
+      "Neutralization",
+      "Precipitation",
+      "Decomposition"
+    ],
+    correctAnswer: "Neutralization",
+    marks: 1
+  },
+  {
+    id: 24,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "pH of dilute HCl is:",
+    options: [
+      ">7",
+      "7",
+      "<7",
+      "0"
+    ],
+    correctAnswer: "<7",
+    marks: 1
+  },
+  {
+    id: 25,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "Cracking is the process of breaking ___ hydrocarbons into smaller ones:",
+    options: [
+      "Saturated",
+      "Large",
+      "Aromatic",
+      "Unsaturated"
+    ],
+    correctAnswer: "Large",
+    marks: 1
+  },
+  {
+    id: 26,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "The product of cracking used as motor fuel is:",
+    options: [
+      "Bitumen",
+      "Petrol",
+      "Diesel",
+      "Kerosene"
+    ],
+    correctAnswer: "Petrol",
+    marks: 1
+  },
+  {
+    id: 27,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "Reforming changes straight-chain alkanes to:",
+    options: [
+      "Branched alkanes and aromatics",
+      "Alkenes",
+      "Alkynes",
+      "Alcohols"
+    ],
+    correctAnswer: "Branched alkanes and aromatics",
+    marks: 1
+  },
+  {
+    id: 28,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "General formula of alkanes is:",
+    options: [
+      "CₙH₂ₙ",
+      "CₙH₂ₙ₊₂",
+      "CₙH₂ₙ₋₂",
+      "CₙHₙ"
+    ],
+    correctAnswer: "CₙH₂ₙ₊₂",
+    marks: 1
+  },
+  {
+    id: 29,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "Ethene belongs to the ___ homologous series:",
+    options: [
+      "Alkanes",
+      "Alkenes",
+      "Alkynes",
+      "Alcohols"
+    ],
+    correctAnswer: "Alkenes",
+    marks: 1
+  },
+  {
+    id: 30,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "The bond in ethyne is:",
+    options: [
+      "Single",
+      "Double",
+      "Triple",
+      "Ionic"
+    ],
+    correctAnswer: "Triple",
+    marks: 1
+  },
+  {
+    id: 31,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "Soap is made industrially by:",
+    options: [
+      "Neutralization",
+      "Saponification",
+      "Fermentation",
+      "Cracking"
+    ],
+    correctAnswer: "Saponification",
+    marks: 1
+  },
+  {
+    id: 32,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "Vulcanization is the process of heating rubber with:",
+    options: [
+      "Oxygen",
+      "Sulphur",
+      "Water",
+      "Acid"
+    ],
+    correctAnswer: "Sulphur",
+    marks: 1
+  },
+  {
+    id: 33,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "Which material is used for making ceramics?",
+    options: [
+      "Clay",
+      "Plastic",
+      "Metal",
+      "Glass"
+    ],
+    correctAnswer: "Clay",
+    marks: 1
+  },
+  {
+    id: 34,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "Dalton's theory stated that atoms of the same element are:",
+    options: [
+      "Different in mass",
+      "Identical in mass and properties",
+      "Divisible",
+      "Created and destroyed in reactions"
+    ],
+    correctAnswer: "Identical in mass and properties",
+    marks: 1
+  },
+  {
+    id: 35,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "Which postulate of Dalton's theory was later disproved?",
+    options: [
+      "Atoms are indivisible",
+      "Atoms combine in simple ratios",
+      "Compounds contain atoms of different elements",
+      "Atoms cannot be created"
+    ],
+    correctAnswer: "Atoms are indivisible",
+    marks: 1
+  },
+  {
+    id: 36,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "According to Dalton, chemical reactions involve:",
+    options: [
+      "Rearrangement of atoms",
+      "Change of atoms to new elements",
+      "Destruction of atoms",
+      "Loss of mass"
+    ],
+    correctAnswer: "Rearrangement of atoms",
+    marks: 1
+  },
+  {
+    id: 37,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "Brownian motion proves that particles of matter are in:",
+    options: [
+      "Fixed positions",
+      "Constant random motion",
+      "Ordered arrangement",
+      "At rest"
+    ],
+    correctAnswer: "Constant random motion",
+    marks: 1
+  },
+  {
+    id: 38,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "The IUPAC name of CH₃CH₂CH₃ is:",
+    options: [
+      "Ethane",
+      "Propane",
+      "Butane",
+      "Methane"
+    ],
+    correctAnswer: "Propane",
+    marks: 1
+  },
+  {
+    id: 39,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "Which mixture component can be separated by magnetism?",
+    options: [
+      "Salt + water",
+      "Iron filings + sulphur",
+      "Oil + water",
+      "Alcohol + water"
+    ],
+    correctAnswer: "Iron filings + sulphur",
+    marks: 1
+  },
+  {
+    id: 40,
+    type: 'multiple-choice',
+    subject: 'chemistry',
+    question: "1 mole of ideal gas at s.t.p occupies:",
+    options: [
+      "11.2 dm³",
+      "22.4 dm³",
+      "24 dm³",
+      "273 dm³"
+    ],
+    correctAnswer: "22.4 dm³",
     marks: 1
   }
 ];

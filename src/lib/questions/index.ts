@@ -3,6 +3,7 @@ import { dataProcessingQuestions } from './computer';
 import { chemistryQuestions as chemistryQuestions } from './chemistry';
 import {biologyQuestions as biologyQuestions} from './biology';
 import {economicsQuestions as economicsQuestions} from './economics';
+import {agricQuestions as agricQuestions} from './agric';
 
 
 export const getQuestionsBySubject = (subject: Subject): Question[] => {
@@ -11,6 +12,8 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
       return dataProcessingQuestions;
     // case 'history':
     //   return historyQuestions;
+    case 'agric':
+      return agricQuestions;
     case 'chemistry':
       return chemistryQuestions;
       case 'biology':
@@ -43,6 +46,8 @@ export const getSubjectDisplayName = (subject: Subject): string => {
       return 'Data Processing';
     // case 'history':
     //   return 'History';
+    case 'agric':
+      return 'Agricultural Science';
     case 'chemistry':
       return 'Chemistry';
       case 'biology':

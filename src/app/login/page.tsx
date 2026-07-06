@@ -353,7 +353,7 @@ export default function LoginPage() {
                   required
                   value={formData.studentId}
                   onChange={(e) => handleInputChange('studentId', e.target.value)}
-                  className={`block w-full pl-10 pr-4 py-3 border rounded-xl placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all ${
+                  className={`block w-full pl-10 pr-4 py-3 border rounded-xl placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-blue-800 transition-all ${
                     errors.studentId ? 'border-red-300 bg-red-50' : 'border-gray-300'
                   }`}
                   placeholder="Enter your student ID"

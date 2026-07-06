@@ -5,420 +5,560 @@ export const biologyQuestions: Question[] = [
     id: 1,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "The organelle involved in tissue respiration is the",
+    question: "The branch of biology that studies microorganisms is called",
     options: [
-      "endoplasmic reticulum",
-      "golgi body",
-      "mitochondrion",
-      "ribosome"
+      "Botany",
+      "Zoology",
+      "Microbiology",
+      "Ecology"
     ],
-    correctAnswer: "mitochondrion",
+    correctAnswer: "Microbiology",
     marks: 1
   },
   {
     id: 2,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "In the absence of oxygen, the pyruvic acid produced during glycolysis is converted to CO2 and",
+    question: "Which of the following is not a group of microorganisms?",
     options: [
-      "water",
-      "glycerol",
-      "ethanol",
-      "citric acid"
+      "Bacteria",
+      "Viruses",
+      "Protozoa",
+      "Ferns"
     ],
-    correctAnswer: "ethanol",
+    correctAnswer: "Ferns",
     marks: 1
   },
   {
     id: 3,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "Glycolysis takes place in",
+    question: "The instrument used to view microorganisms is the",
     options: [
-      "lysosome",
-      "Mitochondrion",
-      "Nucleus",
-      "ribosome"
+      "Telescope",
+      "Microscope",
+      "Periscope",
+      "Spectroscope"
     ],
-    correctAnswer: "Mitochondrion",
+    correctAnswer: "Microscope",
     marks: 1
   },
   {
     id: 4,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "The starting substance in kreb's cycle is",
+    question: "Bacteria that are spherical in shape are called",
     options: [
-      "Citric acid",
-      "Acetic acid",
-      "oxalic acid",
-      "Malic acid"
+      "Bacilli",
+      "Spirilla",
+      "Cocci",
+      "Vibrio"
     ],
-    correctAnswer: "Citric acid",
+    correctAnswer: "Cocci",
     marks: 1
   },
   {
     id: 5,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "A total of __ ATP is produced from one glucose during aerobic respiration",
+    question: "The size of most bacteria ranges from",
     options: [
-      "34",
-      "36",
-      "38",
-      "40"
+      "0.1-10mm",
+      "0.1-10µm",
+      "1-10cm",
+      "0.1-10nm"
     ],
-    correctAnswer: "38",
+    correctAnswer: "0.1-10µm",
     marks: 1
   },
   {
     id: 6,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "The main photosynthetic organ of plant is ____",
+    question: "The process by which yeast converts sugar to alcohol and CO₂ is",
     options: [
-      "leaf",
-      "seed",
-      "fruit",
-      "root"
+      "Photosynthesis",
+      "Fermentation",
+      "Respiration",
+      "Transpiration"
     ],
-    correctAnswer: "leaf",
+    correctAnswer: "Fermentation",
     marks: 1
   },
   {
     id: 7,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "Which of these is not a macro element needed for plant growth?",
+    question: "Which microorganism is used in making yogurt?",
     options: [
-      "potassium",
-      "magnesium",
-      "sodium",
-      "molybdenum"
+      "Rhizobium",
+      "Lactobacillus",
+      "Penicillium",
+      "Plasmodium"
     ],
-    correctAnswer: "molybdenum",
+    correctAnswer: "Lactobacillus",
     marks: 1
   },
   {
     id: 8,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "Yellowing of leaves is a symptoms associated with deficiency of",
+    question: "Decomposition of dead plants and animals is carried out by",
     options: [
-      "iron, calcium and magnesium",
-      "nitrogen, sulphur and potassium",
-      "sulphur, phosphorus and iron",
-      "iron, magnesium and nitrogen"
+      "Parasites",
+      "Saprophytes",
+      "Symbionts",
+      "Producers"
     ],
-    correctAnswer: "iron, magnesium and nitrogen",
+    correctAnswer: "Saprophytes",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "Trace elements are required by plants mainly for the",
+    question: "Rhizobium bacteria in root nodules help in",
     options: [
-      "formation of pigments and enzymes",
-      "production of energy and hormones",
-      "manufacture of carbohydrates",
-      "manufacture of protein"
+      "Nitrogen fixation",
+      "Carbon fixation",
+      "Water absorption",
+      "Photosynthesis"
     ],
-    correctAnswer: "formation of pigments and enzymes",
+    correctAnswer: "Nitrogen fixation",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "The dark phase of photosynthesis occurs in the ____ of chloroplast",
+    question: "Spoilage of food by microorganisms is an example of their",
     options: [
-      "cells",
-      "tissues",
-      "fluid",
-      "stroma"
+      "Economic importance",
+      "Harmful effect",
+      "Neutral effect",
+      "Beneficial effect"
     ],
-    correctAnswer: "stroma",
+    correctAnswer: "Harmful effect",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "Growth include the following processes except",
+    question: "STIs are mainly spread through",
     options: [
-      "differentiation",
-      "meiosis",
-      "mitosis",
-      "elongation"
+      "Air",
+      "Water",
+      "Sexual contact",
+      "Food"
     ],
-    correctAnswer: "meiosis",
+    correctAnswer: "Sexual contact",
     marks: 1
   },
   {
     id: 12,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "When the zygote of an organism continues to grow, it produces new cells by",
+    question: "Which of these is a viral STI?",
     options: [
-      "meiosis",
-      "mitosis",
-      "crossing-over",
-      "gestation"
+      "Gonorrhea",
+      "Syphilis",
+      "HIV/AIDS",
+      "Trichomoniasis"
     ],
-    correctAnswer: "mitosis",
+    correctAnswer: "HIV/AIDS",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "The aspect of growth in living organisms include all the following except",
+    question: "The causative organism of gonorrhea is",
     options: [
-      "increase in dry weight",
-      "irreversible increase in length",
-      "reversible increase in size",
-      "increase in number of cells"
+      "Treponema pallidum",
+      "Neisseria gonorrhoeae",
+      "HIV",
+      "Trichomonas"
     ],
-    correctAnswer: "reversible increase in size",
+    correctAnswer: "Neisseria gonorrhoeae",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "The organelle involved in tissue respiration is the",
+    question: "A common symptom of syphilis in its early stage is",
     options: [
-      "endoplasmic reticulum",
-      "golgi body",
-      "mitochondrion",
-      "ribosome"
+      "Fever",
+      "Painless sore/chancre",
+      "Cough",
+      "Vomiting"
     ],
-    correctAnswer: "mitochondrion",
+    correctAnswer: "Painless sore/chancre",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "In the absence of oxygen, the pyruvic acid produced during glycolysis is converted to CO2 and",
+    question: "The best method of preventing STIs is",
     options: [
-      "water",
-      "glycerol",
-      "ethanol",
-      "citric acid"
+      "Taking antibiotics daily",
+      "Abstinence/faithfulness",
+      "Douching",
+      "Using herbal drugs"
     ],
-    correctAnswer: "ethanol",
+    correctAnswer: "Abstinence/faithfulness",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "The process which ensures that the chromosome number for each species of organism remain constant from generation to generation is called",
+    question: "Malaria is caused by",
     options: [
-      "fission",
-      "meiosis",
-      "mitosis",
-      "oogenesis"
+      "Bacteria",
+      "Virus",
+      "Protozoa",
+      "Fungus"
     ],
-    correctAnswer: "meiosis",
+    correctAnswer: "Protozoa",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "The cell organelle, from which spindle fibres originate during cell division in animal cells is known as",
+    question: "Tuberculosis is caused by",
     options: [
-      "centrosome",
-      "chromosome",
-      "lysosome",
-      "ribosome"
+      "Mycobacterium tuberculosis",
+      "Plasmodium",
+      "HIV",
+      "Salmonella"
     ],
-    correctAnswer: "centrosome",
+    correctAnswer: "Mycobacterium tuberculosis",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "In animals meiosis comes",
+    question: "Cholera is spread mainly through",
     options: [
-      "after fertilization",
-      "after every mitotic division",
-      "before fertilization",
-      "before every meiotic division"
+      "Mosquito bites",
+      "Contaminated water/food",
+      "Sexual contact",
+      "Air"
     ],
-    correctAnswer: "before fertilization",
+    correctAnswer: "Contaminated water/food",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "One of the ways in which body cells differ from gamete cells is in",
+    question: "The vector for malaria is",
     options: [
-      "Type of centromeres they contain",
-      "Number of chromosome pairs they contain",
-      "Type of chromatids they contain",
-      "Number of chromosomes they contain"
+      "Housefly",
+      "Tsetse fly",
+      "Female Anopheles mosquito",
+      "Cockroach"
     ],
-    correctAnswer: "Number of chromosomes they contain",
+    correctAnswer: "Female Anopheles mosquito",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "Which of these excretory structures is not found in amphibians?",
+    question: "Pasteurization is a method of preventing diseases caused by microorganisms in",
     options: [
-      "Gills",
-      "Lungs",
-      "Skin",
-      "Flame cell"
+      "Air",
+      "Milk",
+      "Soil",
+      "Clothing"
     ],
-    correctAnswer: "Flame cell",
+    correctAnswer: "Milk",
     marks: 1
   },
   {
     id: 21,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "Vitamins are organic food substances required by animals in ____ quantity",
+    question: "Immunization protects against diseases by",
     options: [
-      "no",
-      "small",
-      "large",
-      "high"
+      "Killing bacteria directly",
+      "Producing antibodies",
+      "Increasing temperature",
+      "Reducing food"
     ],
-    correctAnswer: "small",
+    correctAnswer: "Producing antibodies",
     marks: 1
   },
   {
     id: 22,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "The following are fat-soluble vitamins except ____",
+    question: "Boiling of water prevents the spread of",
     options: [
-      "vitamin A",
-      "Vitamin B",
-      "Vitamin K",
-      "Vitamin E"
+      "Malaria",
+      "Cholera",
+      "HIV",
+      "Syphilis"
     ],
-    correctAnswer: "Vitamin B",
+    correctAnswer: "Cholera",
     marks: 1
   },
   {
     id: 23,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "One of the following food substances is indigestible in man",
+    question: "Quarantine is used to control",
     options: [
-      "protein",
-      "lipids",
-      "roughages",
-      "carbohydrates"
+      "Genetic diseases",
+      "Infectious diseases",
+      "Nutritional diseases",
+      "Degenerative diseases"
     ],
-    correctAnswer: "roughages",
+    correctAnswer: "Infectious diseases",
     marks: 1
   },
   {
     id: 24,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "The highest source of energy is from _______",
+    question: "WHO stands for",
     options: [
-      "carbohydrate",
-      "proteins",
-      "lipids",
-      "vitamins"
+      "World Health Organization",
+      "World Human Organization",
+      "World Health Office",
+      "World Hospital Organization"
     ],
-    correctAnswer: "lipids",
+    correctAnswer: "World Health Organization",
     marks: 1
   },
   {
     id: 25,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "Rickets (poor bone formation) in children is a deficiency symptom of ____",
+    question: "The main function of WHO is to",
     options: [
-      "potassium",
-      "calcium",
-      "chlorine",
-      "manganese"
+      "Build hospitals",
+      "Promote global health and control diseases",
+      "Train teachers",
+      "Control agriculture"
     ],
-    correctAnswer: "calcium",
+    correctAnswer: "Promote global health and control diseases",
     marks: 1
   },
   {
     id: 26,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "The ability of living things to get used to their environment is ____.",
+    question: "UNICEF focuses mainly on the welfare of",
     options: [
-      "survival",
-      "adaptation",
-      "adjustment",
-      "photosynthesis"
+      "Old people",
+      "Children and mothers",
+      "Farmers",
+      "Soldiers"
     ],
-    correctAnswer: "adaptation",
+    correctAnswer: "Children and mothers",
     marks: 1
   },
   {
     id: 27,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "Response to stimuli in animals can be said to be _______",
+    question: "NAFDAC in Nigeria is responsible for",
     options: [
-      "very slow",
-      "very flow",
-      "fast",
-      "steady"
+      "Control of food and drugs",
+      "Control of schools",
+      "Control of roads",
+      "Control of banks"
     ],
-    correctAnswer: "fast",
+    correctAnswer: "Control of food and drugs",
     marks: 1
   },
   {
     id: 28,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "Fungi store their food (carbohydrate) as _____",
+    question: "The Red Cross Society provides",
     options: [
-      "starch",
-      "glycogen",
-      "hormone",
-      "antibody"
+      "Loans",
+      "First aid and relief during disasters",
+      "Agricultural training",
+      "Internet services"
     ],
-    correctAnswer: "glycogen",
+    correctAnswer: "First aid and relief during disasters",
     marks: 1
   },
   {
     id: 29,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "Each of the following is an arthropod EXCEPT",
+    question: "Biology is important to agriculture because it helps in",
     options: [
-      "crab",
-      "millipede",
-      "spider",
-      "snail"
+      "Building houses",
+      "Crop improvement and pest control",
+      "Car manufacturing",
+      "Banking"
     ],
-    correctAnswer: "snail",
+    correctAnswer: "Crop improvement and pest control",
     marks: 1
   },
   {
     id: 30,
     type: 'multiple-choice',
     subject: 'biology',
-    question: "In which of the following groups of animals are flagella and cilia found",
+    question: "The study of soil and its management is called",
     options: [
-      "Flatworms",
-      "Protozoa",
-      "Nematodes",
-      "Coelenterates"
+      "Zoology",
+      "Pedology",
+      "Meteorology",
+      "Geology"
     ],
-    correctAnswer: "Protozoa",
+    correctAnswer: "Pedology",
+    marks: 1
+  },
+  {
+    id: 31,
+    type: 'multiple-choice',
+    subject: 'biology',
+    question: "Tissue culture in agriculture is used for",
+    options: [
+      "Killing pests",
+      "Rapid multiplication of crops",
+      "Measuring rainfall",
+      "Harvesting"
+    ],
+    correctAnswer: "Rapid multiplication of crops",
+    marks: 1
+  },
+  {
+    id: 32,
+    type: 'multiple-choice',
+    subject: 'biology',
+    question: "Biological control of pests involves the use of",
+    options: [
+      "Chemicals",
+      "Natural enemies",
+      "Fire",
+      "Machines"
+    ],
+    correctAnswer: "Natural enemies",
+    marks: 1
+  },
+  {
+    id: 33,
+    type: 'multiple-choice',
+    subject: 'biology',
+    question: "Crop rotation helps to",
+    options: [
+      "Increase pest population",
+      "Maintain soil fertility",
+      "Reduce rainfall",
+      "Increase weeds"
+    ],
+    correctAnswer: "Maintain soil fertility",
+    marks: 1
+  },
+  {
+    id: 34,
+    type: 'multiple-choice',
+    subject: 'biology',
+    question: "An organism that destroys crops is called a",
+    options: [
+      "Parasite",
+      "Pest",
+      "Producer",
+      "Saprophyte"
+    ],
+    correctAnswer: "Pest",
+    marks: 1
+  },
+  {
+    id: 35,
+    type: 'multiple-choice',
+    subject: 'biology',
+    question: "Cassava mosaic is a viral disease of",
+    options: [
+      "Maize",
+      "Cassava",
+      "Rice",
+      "Yam"
+    ],
+    correctAnswer: "Cassava",
+    marks: 1
+  },
+  {
+    id: 36,
+    type: 'multiple-choice',
+    subject: 'biology',
+    question: "Tsetse fly causes sleeping sickness in humans and",
+    options: [
+      "Rinderpest in cattle",
+      "Trypanosomiasis in cattle",
+      "Anthrax in goats",
+      "Foot and mouth in sheep"
+    ],
+    correctAnswer: "Trypanosomiasis in cattle",
+    marks: 1
+  },
+  {
+    id: 37,
+    type: 'multiple-choice',
+    subject: 'biology',
+    question: "Weevils are pests of stored",
+    options: [
+      "Fruits",
+      "Grains",
+      "Leaves",
+      "Roots"
+    ],
+    correctAnswer: "Grains",
+    marks: 1
+  },
+  {
+    id: 38,
+    type: 'multiple-choice',
+    subject: 'biology',
+    question: "Black pod disease of cocoa is caused by",
+    options: [
+      "Bacteria",
+      "Virus",
+      "Fungus",
+      "Nematode"
+    ],
+    correctAnswer: "Fungus",
+    marks: 1
+  },
+  {
+    id: 39,
+    type: 'multiple-choice',
+    subject: 'biology',
+    question: "One method of controlling plant pests is",
+    options: [
+      "Overgrazing",
+      "Use of pesticides",
+      "Deforestation",
+      "Bush burning"
+    ],
+    correctAnswer: "Use of pesticides",
+    marks: 1
+  },
+  {
+    id: 40,
+    type: 'multiple-choice',
+    subject: 'biology',
+    question: "Rinderpest is a viral disease that affects",
+    options: [
+      "Poultry",
+      "Cattle",
+      "Fish",
+      "Goats"
+    ],
+    correctAnswer: "Cattle",
     marks: 1
   }
 ];

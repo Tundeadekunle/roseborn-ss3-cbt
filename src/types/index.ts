@@ -44,7 +44,7 @@
 
 
 
-export type Subject = 'data processing'| 'chemistry' | 'biology' | 'economics';
+export type Subject = 'data processing'| 'chemistry' | 'biology' | 'economics' | 'agric';
 
 export interface Question {
   id: number;
