@@ -289,13 +289,13 @@ export const students: Student[] = [
     email: 'jsy@school.edu',
     subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
   },
-  // {
-  //   id: 'RSB0034STU', 
-  //   name: 'Taiwo Micheal', 
-  //   class: 'SS 1', 
-  //   email: 'jsy@school.edu',
-  //   subjects: ['data processing']
-  // },
+  {
+    id: 'RSB0084STU', 
+    name: 'Tee Mike', 
+    class: 'SS 1', 
+    email: 'jsy@school.edu',
+    subjects: ['data processing']
+  },
   // {
   //   id: 'RSB0034STU', 
   //   name: 'Taiwo Micheal', 

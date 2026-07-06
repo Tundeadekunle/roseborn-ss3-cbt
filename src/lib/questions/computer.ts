@@ -5,420 +5,560 @@ export const dataProcessingQuestions: Question[] = [
     id: 1,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Data can best be described as",
+    question: "A computer network is defined as:",
     options: [
-      "Processed facts",
-      "Raw facts and figures",
-      "Organized information",
-      "Stored information"
+      "A single computer with a powerful processor.",
+      "Two or more computers linked together to share resources.",
+      "A type of software used for browsing the web.",
+      "A device used for printing documents."
     ],
-    correctAnswer: "Raw facts and figures",
+    correctAnswer: "Two or more computers linked together to share resources.",
     marks: 1
   },
   {
     id: 2,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Information is defined as",
+    question: "Which of the following is NOT a benefit of networking computers?",
     options: [
-      "Raw data",
-      "Processed data that is meaningful",
-      "Unorganized facts",
-      "Computer instructions"
+      "Resource sharing (e.g., printers)",
+      "Faster individual processing speed",
+      "Easy communication (e.g., email)",
+      "Centralized data management"
     ],
-    correctAnswer: "Processed data that is meaningful",
+    correctAnswer: "Faster individual processing speed",
     marks: 1
   },
   {
     id: 3,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is an example of data?",
+    question: "What is the main function of a Switch in a network?",
     options: [
-      "Student report",
-      "Examination result summary",
-      "25, 40, 65",
-      "Newspaper"
+      "To connect a network to the internet.",
+      "To connect devices within the same network and forward data to the correct destination.",
+      "To boost the wireless signal in a large building.",
+      "To convert digital signals to analog signals."
     ],
-    correctAnswer: "25, 40, 65",
+    correctAnswer: "To connect devices within the same network and forward data to the correct destination.",
     marks: 1
   },
   {
     id: 4,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "The process of converting data into meaningful form is called",
+    question: "The device that connects a Local Area Network (LAN) to the internet is a:",
     options: [
-      "Input",
-      "Storage",
-      "Processing",
-      "Output"
+      "Switch",
+      "Hub",
+      "Router",
+      "Repeater"
     ],
-    correctAnswer: "Processing",
+    correctAnswer: "Router",
     marks: 1
   },
   {
     id: 5,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which stage of the information processing cycle involves entering data into the computer?",
+    question: "Which of the following is an example of a Network Operating System?",
     options: [
-      "Output",
-      "Input",
-      "Processing",
-      "Storage"
+      "Windows 10 Home",
+      "Windows Server",
+      "Android",
+      "iOS"
     ],
-    correctAnswer: "Input",
+    correctAnswer: "Windows Server",
     marks: 1
   },
   {
     id: 6,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which stage produces useful information?",
+    question: "A network that covers a small geographical area, like a school building, is called a:",
     options: [
-      "Output",
-      "Storage",
-      "Input",
-      "Collection"
+      "WAN",
+      "MAN",
+      "PAN",
+      "LAN"
     ],
-    correctAnswer: "Output",
+    correctAnswer: "LAN",
     marks: 1
   },
   {
     id: 7,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "The stage where processed data is kept for future use is",
+    question: "A Metropolitan Area Network (MAN) typically covers:",
     options: [
-      "Processing",
-      "Storage",
-      "Input",
-      "Collection"
+      "A single room",
+      "A city or a large campus",
+      "A whole country",
+      "The entire world"
     ],
-    correctAnswer: "Storage",
+    correctAnswer: "A city or a large campus",
     marks: 1
   },
   {
     id: 8,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is NOT a type of data?",
+    question: "Which of the following is the largest type of network?",
     options: [
-      "Numeric",
-      "Text",
-      "Audio",
-      "Computer"
+      "LAN",
+      "PAN",
+      "WAN",
+      "MAN"
     ],
-    correctAnswer: "Computer",
+    correctAnswer: "WAN",
     marks: 1
   },
   {
     id: 9,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Numbers such as 45, 89 and 100 are examples of",
+    question: "A Personal Area Network (PAN) is best described as a network:",
     options: [
-      "Text data",
-      "Numeric data",
-      "Graphic data",
-      "Audio data"
+      "For an entire office building.",
+      "Used for connecting devices like a smartphone and a Bluetooth headset.",
+      "That uses telephone lines for connection.",
+      "Spanning across multiple continents."
     ],
-    correctAnswer: "Numeric data",
+    correctAnswer: "Used for connecting devices like a smartphone and a Bluetooth headset.",
     marks: 1
   },
   {
     id: 10,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Data processing done entirely by human effort is called",
+    question: "The arrangement of computers and other devices in a network is known as its:",
     options: [
-      "Mechanical processing",
-      "Manual processing",
-      "Electronic processing",
-      "Automatic processing"
+      "Protocol",
+      "Topology",
+      "Software",
+      "Transmission medium"
     ],
-    correctAnswer: "Manual processing",
+    correctAnswer: "Topology",
     marks: 1
   },
   {
     id: 11,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "An example of mechanical data processing device is",
+    question: "A technology that allows data to be sent over existing electrical power lines is called:",
     options: [
-      "Computer",
-      "Calculator",
-      "Printer",
-      "Monitor"
+      "Ethernet",
+      "Wi-Fi",
+      "Powerline Communication",
+      "Fiber Optics"
     ],
-    correctAnswer: "Calculator",
+    correctAnswer: "Powerline Communication",
     marks: 1
   },
   {
     id: 12,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Electronic data processing involves the use of",
+    question: "Which network technology is commonly used to provide internet access in 'hotspots' like cafes and airports?",
     options: [
-      "Paper files",
-      "Human effort",
-      "Computers",
-      "Pens and paper"
+      "Bluetooth",
+      "Wi-Fi",
+      "Ethernet",
+      "Fiber Optics"
     ],
-    correctAnswer: "Computers",
+    correctAnswer: "Wi-Fi",
     marks: 1
   },
   {
     id: 13,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which method of data processing is the fastest?",
+    question: "A Bluetooth network is a type of:",
     options: [
-      "Manual",
-      "Mechanical",
-      "Electronic",
-      "Paper"
+      "LAN",
+      "WAN",
+      "PAN",
+      "MAN"
     ],
-    correctAnswer: "Electronic",
+    correctAnswer: "PAN",
     marks: 1
   },
   {
     id: 14,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which method of data processing has the highest chance of errors?",
+    question: "Which network technology uses light pulses to transmit data at very high speeds?",
     options: [
-      "Electronic",
-      "Mechanical",
-      "Manual",
-      "Automatic"
+      "Coaxial Cable",
+      "Twisted Pair Cable",
+      "Fiber Optic Cable",
+      "Wi-Fi"
     ],
-    correctAnswer: "Manual",
+    correctAnswer: "Fiber Optic Cable",
     marks: 1
   },
   {
     id: 15,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "A computer system consists of",
+    question: "Ethernet is a standard technology for which type of network?",
     options: [
-      "Hardware only",
-      "Software only",
-      "Hardware, software and people",
-      "Electricity only"
+      "Wireless networks",
+      "Wired LANs",
+      "Wide Area Networks",
+      "Satellite networks"
     ],
-    correctAnswer: "Hardware, software and people",
+    correctAnswer: "Wired LANs",
     marks: 1
   },
   {
     id: 16,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "The physical parts of a computer are called",
+    question: "The Internet is:",
     options: [
-      "Software",
-      "Hardware",
-      "Programs",
-      "Instructions"
+      "A single large computer.",
+      "A global network of interconnected computers.",
+      "A type of web browser.",
+      "An internet service provider (ISP)."
     ],
-    correctAnswer: "Hardware",
+    correctAnswer: "A global network of interconnected computers.",
     marks: 1
   },
   {
     id: 17,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Programs that tell the computer what to do are called",
+    question: "What is the function of a Web Browser?",
     options: [
-      "Hardware",
-      "Devices",
-      "Software",
-      "Data"
+      "To create websites.",
+      "To provide internet access.",
+      "To retrieve and display web pages.",
+      "To store all files on the internet."
     ],
-    correctAnswer: "Software",
+    correctAnswer: "To retrieve and display web pages.",
     marks: 1
   },
   {
     id: 18,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is NOT hardware?",
+    question: "A website's unique address on the internet is known as its:",
     options: [
-      "Keyboard",
-      "Mouse",
-      "Microsoft Word",
-      "Monitor"
+      "Protocol",
+      "URL (Uniform Resource Locator)",
+      "Search Engine",
+      "Hyperlink"
     ],
-    correctAnswer: "Microsoft Word",
+    correctAnswer: "URL (Uniform Resource Locator)",
     marks: 1
   },
   {
     id: 19,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is application software?",
+    question: "Which of the following is a Search Engine?",
     options: [
-      "Windows",
-      "Linux",
+      "www.google.com",
       "Microsoft Word",
-      "DOS"
+      "Google Chrome",
+      "Yahoo"
     ],
-    correctAnswer: "Microsoft Word",
+    correctAnswer: "Yahoo",
     marks: 1
   },
   {
     id: 20,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is system software?",
+    question: "The service that allows users to send and receive electronic messages over the internet is called:",
     options: [
-      "Microsoft Excel",
-      "Operating system",
-      "PowerPoint",
-      "CorelDraw"
+      "File Transfer Protocol (FTP)",
+      "Electronic Mail (Email)",
+      "World Wide Web (WWW)",
+      "Social Media"
     ],
-    correctAnswer: "Operating system",
+    correctAnswer: "Electronic Mail (Email)",
     marks: 1
   },
   {
     id: 21,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "A computer designed for personal use is called",
+    question: "What is the primary purpose of the World Wide Web (WWW)?",
     options: [
-      "Supercomputer",
-      "Mainframe",
-      "Microcomputer",
-      "Minicomputer"
+      "To connect computers physically.",
+      "To provide a system for sharing information via web pages.",
+      "To send files from one computer to another.",
+      "To make phone calls over the internet."
     ],
-    correctAnswer: "Microcomputer",
+    correctAnswer: "To provide a system for sharing information via web pages.",
     marks: 1
   },
   {
     id: 22,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Computers used for complex scientific calculations are",
+    question: "The 'S' in 'HTTPS' stands for:",
     options: [
-      "Microcomputers",
-      "Supercomputers",
-      "Laptops",
-      "Tablets"
+      "System",
+      "Secure",
+      "Server",
+      "Simple"
     ],
-    correctAnswer: "Supercomputers",
+    correctAnswer: "Secure",
     marks: 1
   },
   {
     id: 23,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which computer is used by large organizations to process large amounts of data?",
+    question: "An Internet Service Provider (ISP) is a company that:",
     options: [
-      "Laptop",
-      "Mainframe",
-      "Tablet",
-      "Desktop"
+      "Creates websites for businesses.",
+      "Provides access to the internet for a fee.",
+      "Sells web browsers.",
+      "Manufactures network cables."
     ],
-    correctAnswer: "Mainframe",
+    correctAnswer: "Provides access to the internet for a fee.",
     marks: 1
   },
   {
     id: 24,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is an example of hardware?",
+    question: "The rules of moral conduct governing the use of computers and the internet are known as:",
     options: [
-      "Windows",
-      "Keyboard",
-      "Excel",
-      "Word"
+      "Computer Laws",
+      "ICT Ethics",
+      "Safety Measures",
+      "Cybercrime"
     ],
-    correctAnswer: "Keyboard",
+    correctAnswer: "ICT Ethics",
     marks: 1
   },
   {
     id: 25,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "The brain of the computer is the",
+    question: "Which of the following is an example of good ICT ethics?",
     options: [
-      "Monitor",
-      "CPU",
-      "Keyboard",
-      "Mouse"
+      "Plagiarizing someone else's work from the internet.",
+      "Respecting the copyright of digital content.",
+      "Spreading viruses to other computers.",
+      "Hacking into a friend's social media account."
     ],
-    correctAnswer: "CPU",
+    correctAnswer: "Respecting the copyright of digital content.",
     marks: 1
   },
   {
     id: 26,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is an output device?",
+    question: "A legal right that grants the creator of an original work exclusive rights to its use and distribution is called:",
     options: [
-      "Keyboard",
-      "Mouse",
-      "Monitor",
-      "Scanner"
+      "Privacy",
+      "Trademark",
+      "Copyright",
+      "Patent"
     ],
-    correctAnswer: "Monitor",
+    correctAnswer: "Copyright",
     marks: 1
   },
   {
     id: 27,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which device is used to type data into the computer?",
+    question: "What is the main purpose of the Data Protection Act?",
     options: [
-      "Printer",
-      "Keyboard",
-      "Speaker",
-      "Monitor"
+      "To protect the physical hardware of computers.",
+      "To protect personal information from being misused.",
+      "To prevent people from using the internet.",
+      "To charge a fee for using data."
     ],
-    correctAnswer: "Keyboard",
+    correctAnswer: "To protect personal information from being misused.",
     marks: 1
   },
   {
     id: 28,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is an advantage of electronic data processing?",
+    question: "Which of the following is a safety precaution against an electrical hazard in a computer lab?",
     options: [
-      "Slow speed",
-      "High accuracy",
-      "Limited storage",
-      "High error rate"
+      "Keeping drinks near the computer.",
+      "Overloading a single power socket.",
+      "Using cables with frayed or damaged insulation.",
+      "Using a surge protector."
     ],
-    correctAnswer: "High accuracy",
+    correctAnswer: "Using a surge protector.",
     marks: 1
   },
   {
     id: 29,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "Which of the following is NOT a type of computer?",
+    question: "To protect your online identity, you should:",
     options: [
-      "Supercomputer",
-      "Mainframe",
-      "Microcomputer",
-      "Typewriter"
+      "Share your password with your best friend.",
+      "Use the same password for all your accounts.",
+      "Create strong, unique passwords for different accounts.",
+      "Post your full home address on social media."
     ],
-    correctAnswer: "Typewriter",
+    correctAnswer: "Create strong, unique passwords for different accounts.",
     marks: 1
   },
   {
     id: 30,
     type: 'multiple-choice',
     subject: 'data processing',
-    question: "The combination of hardware and software working together is called",
+    question: "The unauthorized access to computer systems to steal data or cause damage is called:",
     options: [
-      "Computer device",
-      "Computer system",
-      "Computer network",
-      "Computer program"
+      "Phishing",
+      "Hacking",
+      "Spamming",
+      "Virus"
     ],
-    correctAnswer: "Computer system",
+    correctAnswer: "Hacking",
+    marks: 1
+  },
+  {
+    id: 31,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "A fraudulent attempt to obtain sensitive information like usernames and passwords by disguising as a trustworthy entity in an electronic communication is called:",
+    options: [
+      "Hacking",
+      "Phishing",
+      "Identity Theft",
+      "Denial of Service"
+    ],
+    correctAnswer: "Phishing",
+    marks: 1
+  },
+  {
+    id: 32,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "A malicious software program that replicates itself and can cause harm to a computer system is a:",
+    options: [
+      "Hacker",
+      "Firewall",
+      "Virus",
+      "Spam"
+    ],
+    correctAnswer: "Virus",
+    marks: 1
+  },
+  {
+    id: 33,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "What is Identity Theft?",
+    options: [
+      "Stealing a person's physical identity card.",
+      "Using someone else's personal information (e.g., bank details) fraudulently.",
+      "Changing your username on a social media platform.",
+      "Creating a fake email account."
+    ],
+    correctAnswer: "Using someone else's personal information (e.g., bank details) fraudulently.",
+    marks: 1
+  },
+  {
+    id: 34,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "The act of sending unwanted or unsolicited bulk messages is known as:",
+    options: [
+      "Spam",
+      "Phishing",
+      "Hacking",
+      "Malware"
+    ],
+    correctAnswer: "Spam",
+    marks: 1
+  },
+  {
+    id: 35,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "A 'Firewall' is a security measure that:",
+    options: [
+      "Protects a computer from physical fires.",
+      "Prevents unauthorized access to or from a network.",
+      "Detects and removes viruses.",
+      "Filters out spam emails only."
+    ],
+    correctAnswer: "Prevents unauthorized access to or from a network.",
+    marks: 1
+  },
+  {
+    id: 36,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "Prolonged use of a computer can lead to a condition affecting the wrists known as:",
+    options: [
+      "Eye Strain",
+      "Back Pain",
+      "Repetitive Strain Injury (RSI)",
+      "Fatigue"
+    ],
+    correctAnswer: "Repetitive Strain Injury (RSI)",
+    marks: 1
+  },
+  {
+    id: 37,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "What is the recommended posture for sitting at a computer?",
+    options: [
+      "Slouching in the chair.",
+      "Feet flat on the floor, back straight, and wrists straight.",
+      "Crossing your legs and leaning to one side.",
+      "Sitting very close to the monitor."
+    ],
+    correctAnswer: "Feet flat on the floor, back straight, and wrists straight.",
+    marks: 1
+  },
+  {
+    id: 38,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "What is Computer Vision Syndrome (CVS)?",
+    options: [
+      "A condition where the computer monitor is not clear.",
+      "A group of eye and vision-related problems that result from prolonged computer use.",
+      "The ability of a computer to see.",
+      "A virus that infects the visual system."
+    ],
+    correctAnswer: "A group of eye and vision-related problems that result from prolonged computer use.",
+    marks: 1
+  },
+  {
+    id: 39,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "An ergonomic chair is designed to:",
+    options: [
+      "Look stylish in the office.",
+      "Provide proper support and comfort to reduce the risk of injury.",
+      "Be very cheap to purchase.",
+      "Automatically adjust the computer settings."
+    ],
+    correctAnswer: "Provide proper support and comfort to reduce the risk of injury.",
+    marks: 1
+  },
+  {
+    id: 40,
+    type: 'multiple-choice',
+    subject: 'data processing',
+    question: "Which of the following is a good practice for reducing the negative health effects of computer use?",
+    options: [
+      "Working continuously for 4 hours without a break.",
+      "Placing the monitor in front of a window to get natural light.",
+      "Adjusting the screen brightness to reduce glare.",
+      "Using the computer in a dark room."
+    ],
+    correctAnswer: "Adjusting the screen brightness to reduce glare.",
     marks: 1
   }
 ];

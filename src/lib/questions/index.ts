@@ -68,5 +68,5 @@ export const getSubjectDisplayName = (subject: Subject): string => {
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['data processing' , 'chemistry', 'biology', 'economics'];
+  return ['data processing' , 'chemistry', 'biology', 'economics', 'agric'];
 };
