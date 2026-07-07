@@ -4,6 +4,7 @@ import { chemistryQuestions as chemistryQuestions } from './chemistry';
 import {biologyQuestions as biologyQuestions} from './biology';
 import {economicsQuestions as economicsQuestions} from './economics';
 import {agricQuestions as agricQuestions} from './agric';
+import {ictQuestions as ictQuestions} from './ict';
 
 
 export const getQuestionsBySubject = (subject: Subject): Question[] => {
@@ -20,6 +21,8 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
       return biologyQuestions;
     case 'economics':
       return economicsQuestions;
+      case 'ict':
+      return ictQuestions;
     //   case 'computer':
     //   return dataProcessingQuestions;
     //   case 'phe':
@@ -48,6 +51,8 @@ export const getSubjectDisplayName = (subject: Subject): string => {
     //   return 'History';
     case 'agric':
       return 'Agricultural Science';
+      case 'ict':
+      return 'ICT SS2';
     case 'chemistry':
       return 'Chemistry';
       case 'biology':
@@ -68,5 +73,5 @@ export const getSubjectDisplayName = (subject: Subject): string => {
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['data processing' , 'chemistry', 'biology', 'economics', 'agric'];
+  return ['data processing' , 'chemistry', 'biology', 'economics', 'agric', 'ict'];
 };
