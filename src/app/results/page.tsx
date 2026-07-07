@@ -141,7 +141,7 @@ export default function ResultsPage() {
             <h2 className="text-xl font-semibold text-gray-800 mb-4">Multiple Choice Results</h2>
             <div className="text-center">
               <div className="text-4xl font-bold text-blue-600 mb-2">
-                {result.multipleChoiceScore}/30
+                {result.multipleChoiceScore}/40
               </div>
               <div className="w-full bg-blue-200 rounded-full h-3">
                 <div 
