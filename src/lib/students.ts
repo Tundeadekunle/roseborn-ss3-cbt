@@ -46,7 +46,7 @@ export const students: Student[] = [
   },
   {
     id: 'RSB002STU', 
-    name: 'Osifeso Esther', 
+    name: 'Lawal Surprise', 
     class: 'SS 1', 
     email: 'oluwaseun@school.edu',
     subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
