@@ -10,6 +10,9 @@ import {govtss1Questions as govtss1Questions} from './govtss1';
 import {govtss2Questions as govtss2Questions} from './govtss2';
 import {litss1Questions as litss1Questions} from './litss1';
 import {litss2Questions as litss2Questions} from './litss2';
+import {civicQuestions as civicQuestions} from './civic';
+import {econs2Questions as econs2Questions} from './econs2';
+
 
 export const getQuestionsBySubject = (subject: Subject): Question[] => {
   switch (subject) {
@@ -25,10 +28,14 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
       return chemistryQuestions;
     case 'biology':
       return biologyQuestions;
+    case 'econs2':
+      return econs2Questions;
     case 'economics':
       return economicsQuestions;
     case 'ict':
       return ictQuestions;
+      case 'civic':
+      return civicQuestions;
     //   case 'computer':
     //   return dataProcessingQuestions;
     case 'govtss2':
@@ -71,6 +78,8 @@ export const getSubjectDisplayName = (subject: Subject): string => {
       return 'Biology';
     case 'economics':
       return 'Economics Studies';
+      case 'econs2':
+      return 'Economics Studies SS2';
       case 'govtss1':
       return 'Government SS1';
     case 'govtss2':
@@ -79,8 +88,8 @@ export const getSubjectDisplayName = (subject: Subject): string => {
       return 'Literature SS1';
       case 'litss2':
       return 'Literature SS2';
-    // case 'science':
-    //   return 'Basic Science';
+    case 'civic':
+      return 'Civic';
     // case 'scs':
     //   return 'Social and Citizenship Studies';
     // default:
