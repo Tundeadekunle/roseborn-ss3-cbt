@@ -4,8 +4,12 @@ import { chemistryQuestions as chemistryQuestions } from './chemistry';
 import {biologyQuestions as biologyQuestions} from './biology';
 import {economicsQuestions as economicsQuestions} from './economics';
 import {agricQuestions as agricQuestions} from './agric';
+import {agric2Questions as agric2Questions} from './agricss2';
 import {ictQuestions as ictQuestions} from './ict';
-
+import {govtss1Questions as govtss1Questions} from './govtss1';
+import {govtss2Questions as govtss2Questions} from './govtss2';
+import {litss1Questions as litss1Questions} from './litss1';
+import {litss2Questions as litss2Questions} from './litss2';
 
 export const getQuestionsBySubject = (subject: Subject): Question[] => {
   switch (subject) {
@@ -15,26 +19,32 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
     //   return historyQuestions;
     case 'agric':
       return agricQuestions;
+    case 'agric2':
+      return agric2Questions;
     case 'chemistry':
       return chemistryQuestions;
-      case 'biology':
+    case 'biology':
       return biologyQuestions;
     case 'economics':
       return economicsQuestions;
-      case 'ict':
+    case 'ict':
       return ictQuestions;
     //   case 'computer':
     //   return dataProcessingQuestions;
-    //   case 'phe':
-    //   return pheQuestions;
-    //   case 'crs':
-    //   return crsQuestions;
+    case 'govtss2':
+      return govtss2Questions;
+      case 'govtss1':
+      return govtss1Questions;
+      case 'litss1':
+      return litss1Questions;
+      case 'litss2':
+      return litss2Questions;
     // case 'science':
     //   return scienceQuestions;
     // case 'scs':
     //   return scsQuestions;
-    // default:
-    //   return historyQuestions;
+    default:
+      return [];
   }
 };
 
@@ -51,27 +61,35 @@ export const getSubjectDisplayName = (subject: Subject): string => {
     //   return 'History';
     case 'agric':
       return 'Agricultural Science';
-      case 'ict':
+    case 'agric2':
+      return 'Agricultural Science SS2';
+    case 'ict':
       return 'ICT SS2';
     case 'chemistry':
       return 'Chemistry';
-      case 'biology':
+    case 'biology':
       return 'Biology';
-      case 'economics':
+    case 'economics':
       return 'Economics Studies';
-    //   case 'crs':
-    //   return 'Christian Religious Studies';
-    //   case 'phe':
-    //   return 'Physical and Health Education';
+      case 'govtss1':
+      return 'Government SS1';
+    case 'govtss2':
+      return 'Government SS2';
+      case 'litss1':
+      return 'Literature SS1';
+      case 'litss2':
+      return 'Literature SS2';
     // case 'science':
     //   return 'Basic Science';
     // case 'scs':
     //   return 'Social and Citizenship Studies';
     // default:
     //   return 'CCA';
+    default:
+      return 'Unknown Subject';
   }
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['data processing' , 'chemistry', 'biology', 'economics', 'agric', 'ict'];
+  return ['data processing' , 'chemistry', 'biology', 'economics', 'agric', 'ict', 'agric2', 'history', 'litss2', 'science', 'litss1', 'govtss1', 'govtss2'];
 };
