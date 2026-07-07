@@ -100,5 +100,5 @@ export const getSubjectDisplayName = (subject: Subject): string => {
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['data processing' , 'chemistry', 'biology', 'economics', 'agric', 'ict', 'agric2', 'history', 'litss2', 'science', 'litss1', 'govtss1', 'govtss2'];
+  return ['data processing' , 'chemistry', 'biology', 'economics', 'agric', 'ict', 'agric2', 'history', 'litss2', 'econs2', 'civic', 'litss1', 'govtss1', 'govtss2'];
 };
