@@ -6,21 +6,21 @@ export const students: Student[] = [
     name: 'Adekunle Daniel', 
     class: 'SS 1', 
     email: 'sodim@school.edu',
-    subjects: [ 'data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: [ 'data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   { 
     id: 'RSB037STU', 
     name: 'Adekunle Hannat', 
     class: 'SS 1', 
     email: 'salam@school.edu',
-    subjects: [ 'data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: [ 'data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   { 
     id: 'RSB038STU', 
     name: 'Adekunle Sodiq', 
     class: 'SS 1', 
     email: 'alamuy@school.edu',
-    subjects: [ 'data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: [ 'data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   
 { 
@@ -28,266 +28,266 @@ export const students: Student[] = [
     name: 'Wale Seun', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: [ 'data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: [ 'data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   { 
     id: 'RSB0040STU', 
     name: 'Adeloro Ayoade', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology',   'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology',   'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB001STU', 
     name: 'Akinbola Odunayo', 
     class: 'SS 1', 
     email: 'adeyemi@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB002STU', 
     name: 'Lawal Surprise', 
     class: 'SS 1', 
     email: 'oluwaseun@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB003STU', 
     name: 'Alonge Tunde', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
   id: 'RSB004STU', 
     name: 'Odoh Victor', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB005STU', 
     name: 'Shodipe Victor', 
     class: 'SS 1', 
     email: 'adeyemi@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
   id: 'RSB006STU', 
     name: 'Fatai Rofiu', 
     class: 'SS 3', 
     email: 'oluwaseun@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB007STU', 
     name: 'Taiwo Micheal', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB008STU', 
     name: 'Nuhu Happiness', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB009STU', 
     name: 'Lawal Darasimi', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0010STU', 
     name: 'Jimoh Opeyemi', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0011STU', 
     name: 'Saba Fathia', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0012STU', 
     name: 'Ajayi Darasimi', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0013STU', 
     name: 'Ajayi Omotara', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0014STU', 
     name: 'Ajisegiri Abdul-Azeez', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0015STU', 
     name: 'Ekani Yemisi', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0016STU', 
     name: 'Sowunmi Muslimot', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0017STU', 
     name: 'Adenuga Destiny', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0018STU', 
     name: 'Obabiyi Elizabeth', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0019STU', 
     name: 'Onyemah Ifunanya', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0020STU', 
     name: 'Oyedele Faidat', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0021STU', 
     name: 'Idakwoji Ojonimi', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0022STU', 
     name: 'Awolaja Darasimi', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0023STU', 
     name: 'Ezeadi Uchechi', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0024STU', 
     name: 'Akiode Adelola', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0025STU', 
     name: 'Aliu Salam', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0026STU', 
     name: 'Jubril Mubaraq', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0027STU', 
     name: 'Coker Kehinde', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0028STU', 
     name: 'Coker Taiwo', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0029STU', 
     name: 'Tijani Temitayo', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0030STU', 
     name: 'Onifade Elijah', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0031STU', 
     name: 'Peter Micheal', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0032STU', 
     name: 'Popoola Rasheed', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0033STU', 
     name: 'Popoola Oluwalolope', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0034STU', 
     name: 'Idowu Mololuwa', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0041STU', 
     name: 'Sorunke Samuel', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0042STU', 
     name: 'Ekani Thank-God', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric']
+    subjects: ['data processing', 'chemistry', 'biology', 'economics', 'agric', 'govtss1', 'litss1']
   },
   {
     id: 'RSB0084STU', 
