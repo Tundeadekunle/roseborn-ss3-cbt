@@ -132,7 +132,7 @@ export default function ProgressPage() {
                 ) : (
                   <div className="text-center py-6">
                     <p className="text-gray-600 mb-4">This subject is available for you to take.</p>
-                    <Link
+                    {/* <Link
                       href="/login"
                       className="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
                     >
@@ -140,7 +140,7 @@ export default function ProgressPage() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                       </svg>
                       Start Exam
-                    </Link>
+                    </Link> */}
                   </div>
                 )}
               </div>
