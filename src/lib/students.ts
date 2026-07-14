@@ -302,21 +302,21 @@ export const students: Student[] = [
     name: 'Ogunjobi Demilade', 
     class: 'SS 2', 
     email: 'sodim@school.edu',
-    subjects: [ 'chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2' ]
+    subjects: [ 'chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2' ]
   },
   { 
     id: 'RSB061STU', 
     name: 'Adebayo Ayomide', 
     class: 'SS 2', 
     email: 'salam@school.edu',
-    subjects: [ 'chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: [ 'chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   { 
     id: 'RSB062STU', 
     name: 'Atoe Temitope', 
     class: 'SS 2', 
     email: 'alamuy@school.edu',
-    subjects: [ 'chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2' ]
+    subjects: [ 'chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2' ]
   },
   
 { 
@@ -324,56 +324,56 @@ export const students: Student[] = [
     name: 'Wale Seun', 
     class: 'SS 1', 
     email: 'jsy@school.edu',
-    subjects: [ 'chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: [ 'chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   { 
     id: 'RSB0064STU', 
     name: 'Atoe Temiloluwa', 
     class: 'SS 2', 
     email: 'jsy@school.edu',
-    subjects: ['chemistry', 'biology',   'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology',   'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   {
     id: 'RSB0065STU', 
     name: 'Ogunsanya Darasimi', 
     class: 'SS 2', 
     email: 'adeyemi@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   {
     id: 'RSB066STU', 
     name: 'Olumide Sopetie', 
     class: 'SS 2', 
     email: 'oluwaseun@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   {
     id: 'RSB067STU', 
     name: 'Shodimu Ikimot', 
     class: 'SS 2', 
     email: 'jsy@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   {
   id: 'RSB068STU', 
     name: 'Makinde Iyanuoluwa', 
     class: 'SS 2', 
     email: 'jsy@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   {
     id: 'RSB069STU', 
     name: 'Akinkuotu Esther', 
     class: 'SS 2', 
     email: 'adeyemi@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   {
   id: 'RSB070STU', 
     name: 'Falodun Adeoluwa', 
     class: 'SS 2', 
     email: 'oluwaseun@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
 
   {
@@ -381,56 +381,56 @@ export const students: Student[] = [
     name: 'Atoe Temitayo', 
     class: 'SS 2', 
     email: 'jsy@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   {
   id: 'RSB072STU', 
     name: 'Oniyide Damilola', 
     class: 'SS 2', 
     email: 'jsy@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   {
     id: 'RSB073STU', 
     name: 'Shodimu Zainab', 
     class: 'SS 2', 
     email: 'adeyemi@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   {
   id: 'RSB074STU', 
     name: 'Adeniji Usman', 
     class: 'SS 2', 
     email: 'oluwaseun@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   {
     id: 'RSB075STU', 
     name: 'Akerele Dolapo', 
     class: 'SS 2', 
     email: 'jsy@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   {
     id: 'RSB076STU', 
     name: 'Adekunle Anuoluwapo', 
     class: 'SS 2', 
     email: 'jsy@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   {
     id: 'RSB077STU', 
     name: 'Ajayi Darasimi', 
     class: 'SS 2', 
     email: 'jsy@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
   {
     id: 'RSB078STU', 
     name: 'Koleosho Mukran', 
     class: 'SS 2', 
     email: 'jsy@school.edu',
-    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2']
+    subjects: ['chemistry', 'biology', 'economics', 'agric', 'ict', 'govtss2', 'civic', 'litss1', 'litss2', 'agric2', 'econs2', 'chemistry2', 'biology2']
   },
 
   // {

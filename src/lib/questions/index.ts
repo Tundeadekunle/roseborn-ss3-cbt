@@ -12,6 +12,9 @@ import {litss1Questions as litss1Questions} from './litss1';
 import {litss2Questions as litss2Questions} from './litss2';
 import {civicQuestions as civicQuestions} from './civic';
 import {econs2Questions as econs2Questions} from './econs2';
+import {chemistry2Questions as chemistry2Questions} from './chemistry2';
+import {biology2Questions as biology2Questions} from './biology2';
+
 
 
 export const getQuestionsBySubject = (subject: Subject): Question[] => {
@@ -26,8 +29,12 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
       return agric2Questions;
     case 'chemistry':
       return chemistryQuestions;
+      case 'chemistry2':
+      return chemistry2Questions;
     case 'biology':
       return biologyQuestions;
+      case 'biology2':
+      return biology2Questions;
     case 'econs2':
       return econs2Questions;
     case 'economics':
@@ -74,8 +81,12 @@ export const getSubjectDisplayName = (subject: Subject): string => {
       return 'ICT SS2';
     case 'chemistry':
       return 'Chemistry';
+      case 'chemistry2':
+      return 'Chemistry SS2';
     case 'biology':
       return 'Biology';
+      case 'biology2':
+      return 'Biology SS2';
     case 'economics':
       return 'Economics Studies';
       case 'econs2':
@@ -100,5 +111,5 @@ export const getSubjectDisplayName = (subject: Subject): string => {
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['data processing' , 'chemistry', 'biology', 'economics', 'agric', 'ict', 'agric2', 'history', 'litss2', 'econs2', 'civic', 'litss1', 'govtss1', 'govtss2'];
+  return ['data processing' , 'chemistry', 'chemistry2', 'biology', 'biology2', 'economics', 'agric', 'ict', 'agric2', 'history', 'litss2', 'econs2', 'civic', 'litss1', 'govtss1', 'govtss2'];
 };
