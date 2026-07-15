@@ -14,7 +14,10 @@ import {civicQuestions as civicQuestions} from './civic';
 import {econs2Questions as econs2Questions} from './econs2';
 import {chemistry2Questions as chemistry2Questions} from './chemistry2';
 import {biology2Questions as biology2Questions} from './biology2';
-
+import {physics2Questions as physics2Questions} from './physics2';
+import {physicsQuestions as physicsQuestions} from './physics';
+import {phonicsQuestions as phonicsQuestions} from './phonics';
+import {phonics2Questions as phonics2Questions} from './phonics2';
 
 
 export const getQuestionsBySubject = (subject: Subject): Question[] => {
@@ -53,6 +56,14 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
       return litss1Questions;
       case 'litss2':
       return litss2Questions;
+      case 'physics2':
+      return physics2Questions;
+      case 'physics':
+      return physicsQuestions;
+      case 'phonics':
+      return phonicsQuestions;
+      case 'phonics2':
+      return phonics2Questions;
     // case 'science':
     //   return scienceQuestions;
     // case 'scs':
@@ -101,6 +112,14 @@ export const getSubjectDisplayName = (subject: Subject): string => {
       return 'Literature SS2';
     case 'civic':
       return 'Civic';
+      case 'physics':
+      return 'Physics SS1';
+      case 'physics2':
+      return 'Physics SS2';
+      case 'phonics':
+      return 'Spoken English SS1';
+      case 'phonics2':
+      return 'Spoken English SS2';
     // case 'scs':
     //   return 'Social and Citizenship Studies';
     // default:
@@ -111,5 +130,5 @@ export const getSubjectDisplayName = (subject: Subject): string => {
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['data processing' , 'chemistry', 'chemistry2', 'biology', 'biology2', 'economics', 'agric', 'ict', 'agric2', 'history', 'litss2', 'econs2', 'civic', 'litss1', 'govtss1', 'govtss2'];
+  return ['data processing' , 'chemistry', 'chemistry2', 'biology', 'biology2', 'economics', 'agric', 'ict', 'agric2', 'history', 'litss2', 'econs2', 'civic', 'litss1', 'govtss1', 'govtss2', 'physics', 'physics2', 'phonics', 'phonics2'];
 };

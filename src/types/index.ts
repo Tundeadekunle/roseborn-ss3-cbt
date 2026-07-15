@@ -44,7 +44,7 @@
 
 
 
-export type Subject = 'data processing'| 'chemistry' | 'biology' | 'economics' | 'agric' | 'ict' | 'agric2' | 'history' | 'litss1' | 'govtss1' | 'science' | 'govtss2' | 'litss2' | 'civic' | 'econs2' | 'chemistry2' | 'biology2';
+export type Subject = 'data processing'| 'chemistry' | 'biology' | 'economics' | 'agric' | 'ict' | 'agric2' | 'history' | 'litss1' | 'govtss1' | 'science' | 'govtss2' | 'litss2' | 'civic' | 'econs2' | 'chemistry2' | 'biology2' | 'physics2' | 'physics' | 'phonics' | 'phonics2';
 
 export interface Question {
   id: number;
