@@ -18,6 +18,7 @@ import {physics2Questions as physics2Questions} from './physics2';
 import {physicsQuestions as physicsQuestions} from './physics';
 import {phonicsQuestions as phonicsQuestions} from './phonics';
 import {phonics2Questions as phonics2Questions} from './phonics2';
+import {commerce2Questions as commerce2Questions} from './commerce2';
 
 
 export const getQuestionsBySubject = (subject: Subject): Question[] => {
@@ -30,6 +31,8 @@ export const getQuestionsBySubject = (subject: Subject): Question[] => {
       return agricQuestions;
     case 'agric2':
       return agric2Questions;
+      case 'commerce2':
+      return commerce2Questions;
     case 'chemistry':
       return chemistryQuestions;
       case 'chemistry2':
@@ -88,6 +91,8 @@ export const getSubjectDisplayName = (subject: Subject): string => {
       return 'Agricultural Science';
     case 'agric2':
       return 'Agricultural Science SS2';
+      case 'commerce2':
+      return 'Commerce SS2';
     case 'ict':
       return 'ICT SS2';
     case 'chemistry':
@@ -130,5 +135,5 @@ export const getSubjectDisplayName = (subject: Subject): string => {
 };
 
 export const getAllSubjects = (): Subject[] => {
-  return ['data processing' , 'chemistry', 'chemistry2', 'biology', 'biology2', 'economics', 'agric', 'ict', 'agric2', 'history', 'litss2', 'econs2', 'civic', 'litss1', 'govtss1', 'govtss2', 'physics', 'physics2', 'phonics', 'phonics2'];
+  return ['data processing' , 'chemistry', 'chemistry2', 'biology', 'biology2', 'economics', 'agric', 'ict', 'agric2', 'history', 'litss2', 'econs2', 'civic', 'litss1', 'govtss1', 'govtss2', 'physics', 'physics2', 'phonics', 'phonics2', 'commerce2'];
 };
